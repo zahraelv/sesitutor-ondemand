@@ -1,0 +1,6281 @@
+[
+  {
+    "id": "puji_rahayu",
+    "name": "Puji Rahayu",
+    "email": "pujir4369@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/kcu-gncb-vxk",
+    "phone": "6282215689515",
+    "notes": "SD-SMP",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "PR",
+    "rating": "5.0 (71 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [
+        "18:45",
+        "20:00"
+      ],
+      "Rabu": [
+        "18:45",
+        "20:00"
+      ],
+      "Kamis": [
+        "18:45",
+        "20:00"
+      ],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {
+        "16:00": {
+          "type": "ST",
+          "class": "5 SD",
+          "mapel": "Matematika"
+        },
+        "17:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Rabu": {
+        "18:45": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {
+        "10:00": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "Matematika"
+        },
+        "11:00": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "Matematika"
+        },
+        "12:30": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        }
+      }
+    }
+  },
+  {
+    "id": "dina_zhafira",
+    "name": "Dina Zhafira",
+    "email": "dzhafira63@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/kju-nhqy-yff",
+    "phone": "6285260327134",
+    "notes": "SD-SMP",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "DZ",
+    "rating": "5.0 (82 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "15:00",
+        "20:30"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "15:00",
+        "20:30"
+      ],
+      "Kamis": [
+        "15:00",
+        "20:30"
+      ],
+      "Jumat": [
+        "15:00"
+      ],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {
+        "15:00": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "Matematika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Selasa": {},
+      "Rabu": {
+        "15:00": {
+          "type": "ST",
+          "class": "5 SD",
+          "mapel": "Matematika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Kamis": {
+        "15:00": {
+          "type": "ST",
+          "class": "4 SD",
+          "mapel": "Matematika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Jumat": {
+        "15:00": {
+          "type": "ST",
+          "class": "4 SD",
+          "mapel": "Matematika"
+        }
+      },
+      "Sabtu": {
+        "10:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        },
+        "11:00": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "Matematika"
+        },
+        "12:30": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Matematika"
+        }
+      }
+    }
+  },
+  {
+    "id": "della_yurmalia",
+    "name": "Della Yurmalia",
+    "email": "yurmaliadella@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/jzq-xskg-srx",
+    "phone": "6285271621665",
+    "notes": "SD-SMP",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "DY",
+    "rating": "4.8 (94 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "17:00"
+      ],
+      "Selasa": [
+        "17:00",
+        "20:00"
+      ],
+      "Rabu": [
+        "17:00"
+      ],
+      "Kamis": [
+        "17:00"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "17:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Selasa": {
+        "17:00": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Rabu": {
+        "17:00": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Kamis": {
+        "17:00": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "natasha_anggita_laras",
+    "name": "Natasha Anggita Laras",
+    "email": "nanatashaal@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/aws-youb-fha",
+    "phone": "628996280001",
+    "notes": "SD-SMP",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "NA",
+    "rating": "4.8 (44 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "andyka_martha_kesuma",
+    "name": "Andyka Martha Kesuma",
+    "email": "adythama@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/zby-hssu-qbx",
+    "phone": "6282181307736",
+    "notes": "SMA",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "AM",
+    "rating": "5.0 (85 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "20:00"
+      ],
+      "Selasa": [
+        "17:00",
+        "18:45",
+        "20:00"
+      ],
+      "Rabu": [
+        "17:00",
+        "18:45",
+        "20:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "12:30",
+        "13:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Selasa": {
+        "17:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "18:45": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Rabu": {
+        "17:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {
+        "12:30": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "13:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      }
+    }
+  },
+  {
+    "id": "putri_mutia",
+    "name": "Putri Mutia",
+    "email": "putrimutia1202@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/rht-qfdg-emx",
+    "phone": "6282273261718",
+    "notes": "SMA",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "PM",
+    "rating": "4.7 (131 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [],
+      "Selasa": [
+        "19:30",
+        "20:30"
+      ],
+      "Rabu": [
+        "20:30"
+      ],
+      "Kamis": [],
+      "Jumat": [
+        "19:30",
+        "20:30"
+      ],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {
+        "19:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Rabu": {
+        "20:30": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Kamis": {},
+      "Jumat": {
+        "19:30": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "Matematika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ridwan_mukhlis",
+    "name": "Ridwan Mukhlis",
+    "email": "ridwanmukhlis22@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/okc-dhnv-vwg",
+    "phone": "6285831370090",
+    "notes": "SMA",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "RM",
+    "rating": "5.0 (92 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "17:00",
+        "20:30"
+      ],
+      "Selasa": [
+        "17:00",
+        "20:30"
+      ],
+      "Rabu": [
+        "17:00",
+        "20:30"
+      ],
+      "Kamis": [
+        "17:00",
+        "20:30"
+      ],
+      "Jumat": [
+        "17:00"
+      ],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "17:00": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Selasa": {
+        "17:00": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Matematika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Rabu": {
+        "17:00": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Kamis": {
+        "17:00": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "Matematika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Jumat": {
+        "17:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "divani_dzakia_arsy",
+    "name": "Divani Dzakia Arsy",
+    "email": "divanidza@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/vuv-ejmw-gbd",
+    "phone": "6281227841899",
+    "notes": "SD-SMP",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "DD",
+    "rating": "4.8 (75 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "18:45",
+        "20:00"
+      ],
+      "Selasa": [
+        "18:45",
+        "20:00"
+      ],
+      "Rabu": [
+        "18:45",
+        "20:00"
+      ],
+      "Kamis": [
+        "18:45",
+        "20:00"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "18:45": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Rabu": {
+        "18:45": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "sonia",
+    "name": "Sonia",
+    "email": "soniariyofa15@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/jgd-vfdk-tbh",
+    "phone": "6285322086388",
+    "notes": "SD-SMP",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "S",
+    "rating": "4.8 (122 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "retno_dwi_jayanti",
+    "name": "Retno Dwi Jayanti",
+    "email": "retnojy@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/tvf-yvvq-mum",
+    "phone": "6282122824568",
+    "notes": "SMA",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "RD",
+    "rating": "4.9 (114 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [],
+      "Selasa": [],
+      "Rabu": [],
+      "Kamis": [
+        "15:00"
+      ],
+      "Jumat": [
+        "18:45"
+      ],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {
+        "15:00": {
+          "type": "ST",
+          "class": "3 SD",
+          "mapel": "Matematika"
+        }
+      },
+      "Jumat": {
+        "18:45": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "via_ardhya_garini_lintang",
+    "name": "Via Ardhya Garini Lintang",
+    "email": "garinilintang@gmail.com",
+    "subject": "Bahasa Indonesia",
+    "gmeet": "https://meet.google.com/zvn-bsxs-fev",
+    "phone": "6285892988797",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "bahasa_indonesia"
+    ],
+    "avatar": "VA",
+    "rating": "4.9 (78 sesi)",
+    "desc": "Spesialis Bahasa Indonesia",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "nanda_tania_p",
+    "name": "Nanda Tania P",
+    "email": "nandatania37@gmail.com",
+    "subject": "Bahasa Indonesia",
+    "gmeet": "https://meet.google.com/scq-oows-cua",
+    "phone": "6285697006677",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "bahasa_indonesia"
+    ],
+    "avatar": "NT",
+    "rating": "4.9 (57 sesi)",
+    "desc": "Spesialis Bahasa Indonesia",
+    "availability": {
+      "Senin": [],
+      "Selasa": [
+        "18:45",
+        "20:00"
+      ],
+      "Rabu": [],
+      "Kamis": [
+        "18:45",
+        "20:00"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Bahasa Indonesia"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Bahasa Indonesia"
+        }
+      },
+      "Rabu": {},
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "Bahasa Indonesia"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Bahasa Indonesia"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "muhammad_rizal",
+    "name": "Muhammad Rizal",
+    "email": "muhrizal1312@gmail.com",
+    "subject": "Bahasa Indonesia",
+    "gmeet": "https://meet.google.com/biv-ifcq-pxq",
+    "phone": "6281805101816",
+    "notes": "SMA, SMP",
+    "subjects": [
+      "bahasa_indonesia"
+    ],
+    "avatar": "MR",
+    "rating": "4.9 (98 sesi)",
+    "desc": "Spesialis Bahasa Indonesia",
+    "availability": {
+      "Senin": [],
+      "Selasa": [],
+      "Rabu": [
+        "17:00",
+        "18:45"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {
+        "17:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Bahasa Indonesia"
+        },
+        "18:45": {
+          "type": "ST",
+          "class": "12 SMA IPA IPS",
+          "mapel": "Bahasa Indonesia"
+        }
+      },
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "winda_diani",
+    "name": "Winda Diani",
+    "email": "dianiwindaa@gmail.com",
+    "subject": "Bahasa Inggris",
+    "gmeet": "https://meet.google.com/xaw-drfj-msj",
+    "phone": "6282170849796",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "bahasa_inggris"
+    ],
+    "avatar": "WD",
+    "rating": "4.8 (51 sesi)",
+    "desc": "Spesialis Bahasa Inggris",
+    "availability": {
+      "Senin": [
+        "15:00"
+      ],
+      "Selasa": [],
+      "Rabu": [],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "15:00": {
+          "type": "ST",
+          "class": "12 SMA IPA IPS",
+          "mapel": "Bahasa Inggris"
+        }
+      },
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "siti_uswatun_khasanah",
+    "name": "Siti Uswatun Khasanah",
+    "email": "sitiuswatunkha@gmail.com",
+    "subject": "Bahasa Inggris",
+    "gmeet": "https://meet.google.com/epv-qcuy-fbq",
+    "phone": "6285745952525",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "bahasa_inggris"
+    ],
+    "avatar": "SU",
+    "rating": "5.0 (79 sesi)",
+    "desc": "Spesialis Bahasa Inggris",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "umi_hanum",
+    "name": "Umi Hanum",
+    "email": "uhbiologi@gmail.com",
+    "subject": "Biologi",
+    "gmeet": "https://meet.google.com/idy-nzih-bfk",
+    "phone": "6285727607654",
+    "notes": "SMP",
+    "subjects": [
+      "biologi"
+    ],
+    "avatar": "UH",
+    "rating": "5.0 (133 sesi)",
+    "desc": "Spesialis Biologi",
+    "availability": {
+      "Senin": [
+        "18:45",
+        "20:00"
+      ],
+      "Selasa": [
+        "18:45",
+        "20:00"
+      ],
+      "Rabu": [
+        "18:45"
+      ],
+      "Kamis": [
+        "18:45",
+        "20:00"
+      ],
+      "Jumat": [
+        "20:00",
+        "18:45"
+      ],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "18:45": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Biologi"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Biologi"
+        }
+      },
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Biologi"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Biologi"
+        }
+      },
+      "Rabu": {
+        "18:45": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Biologi"
+        }
+      },
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Biologi"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Biologi"
+        }
+      },
+      "Jumat": {
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Biologi"
+        },
+        "18:45": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "IPA Bio"
+        }
+      },
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ramadhayanti",
+    "name": "Ramadhayanti",
+    "email": "ramadhayanti97@gmail.com",
+    "subject": "Biologi",
+    "gmeet": "https://meet.google.com/gxh-ksjq-jqa",
+    "phone": "6281277976344",
+    "notes": "SD",
+    "subjects": [
+      "biologi"
+    ],
+    "avatar": "R",
+    "rating": "4.9 (120 sesi)",
+    "desc": "Spesialis Biologi",
+    "availability": {
+      "Senin": [
+        "18:45",
+        "17:00"
+      ],
+      "Selasa": [
+        "18:45",
+        "17:00"
+      ],
+      "Rabu": [
+        "18:45",
+        "20:00",
+        "17:00"
+      ],
+      "Kamis": [
+        "17:00",
+        "18:45"
+      ],
+      "Jumat": [
+        "17:00",
+        "18:45"
+      ],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Biologi"
+        },
+        "17:00": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "IPAS IPA"
+        }
+      },
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Biologi"
+        },
+        "17:00": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "IPAS IPA"
+        }
+      },
+      "Rabu": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Biologi"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Biologi"
+        },
+        "17:00": {
+          "type": "ST",
+          "class": "5 SD",
+          "mapel": "IPAS IPA"
+        }
+      },
+      "Kamis": {
+        "17:00": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "IPAS IPA"
+        },
+        "18:45": {
+          "type": "ST",
+          "class": "5 SD",
+          "mapel": "IPAS IPA"
+        }
+      },
+      "Jumat": {
+        "17:00": {
+          "type": "ST",
+          "class": "5 SD",
+          "mapel": "IPAS IPA"
+        },
+        "18:45": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "IPAS IPA"
+        }
+      },
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "monica_ramadhani_frimansyah",
+    "name": "Monica Ramadhani Frimansyah",
+    "email": "frimansyahmonica@gmail.com",
+    "subject": "Kimia",
+    "gmeet": "https://meet.google.com/vth-zmud-byo",
+    "phone": "6287815402930",
+    "notes": "SMA",
+    "subjects": [
+      "kimia"
+    ],
+    "avatar": "MR",
+    "rating": "4.8 (120 sesi)",
+    "desc": "Spesialis Kimia",
+    "availability": {
+      "Senin": [
+        "19:30",
+        "20:30"
+      ],
+      "Selasa": [],
+      "Rabu": [],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "19:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Kimia"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "nurul_puji_astuti",
+    "name": "Nurul Puji Astuti",
+    "email": "nurulpuji2411@gmail.com",
+    "subject": "Kimia",
+    "gmeet": "https://meet.google.com/jit-nuhd-xck",
+    "phone": "6282371957558",
+    "notes": "SMA",
+    "subjects": [
+      "kimia"
+    ],
+    "avatar": "NP",
+    "rating": "4.8 (96 sesi)",
+    "desc": "Spesialis Kimia",
+    "availability": {
+      "Senin": [
+        "18:45"
+      ],
+      "Selasa": [
+        "18:45"
+      ],
+      "Rabu": [
+        "18:45"
+      ],
+      "Kamis": [
+        "18:45"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "18:45": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Rabu": {
+        "18:45": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "larah_maghfirotika",
+    "name": "Larah Maghfirotika",
+    "email": "tikalarah285@gmail.com",
+    "subject": "Kimia",
+    "gmeet": "https://meet.google.com/ckv-arvm-sgj",
+    "phone": "6283892441579",
+    "notes": "SMA",
+    "subjects": [
+      "kimia"
+    ],
+    "avatar": "LM",
+    "rating": "4.7 (50 sesi)",
+    "desc": "Spesialis Kimia",
+    "availability": {
+      "Senin": [],
+      "Selasa": [
+        "18:45"
+      ],
+      "Rabu": [],
+      "Kamis": [
+        "18:45"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Rabu": {},
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "fikriyatul_maulidiyah",
+    "name": "Fikriyatul Maulidiyah",
+    "email": "fikriyamaulidiyah@gmail.com",
+    "subject": "Kimia",
+    "gmeet": "https://meet.google.com/sbq-brsh-dup",
+    "phone": "6281217897161",
+    "notes": "SMA, add on",
+    "subjects": [
+      "kimia"
+    ],
+    "avatar": "FM",
+    "rating": "5.0 (120 sesi)",
+    "desc": "Spesialis Kimia",
+    "availability": {
+      "Senin": [
+        "18:45"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "18:45"
+      ],
+      "Kamis": [
+        "20:00"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "18:45": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Selasa": {},
+      "Rabu": {
+        "18:45": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Kamis": {
+        "20:00": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "zelin_norma_resty",
+    "name": "Zelin Norma Resty",
+    "email": "zeety632@gmail.com",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/mnb-uhhs-sjc",
+    "phone": "6285735970360",
+    "notes": "SMA",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "ZN",
+    "rating": "4.9 (41 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [
+        "17:00",
+        "18:45",
+        "20:00"
+      ],
+      "Selasa": [],
+      "Rabu": [],
+      "Kamis": [
+        "18:45"
+      ],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00"
+      ]
+    },
+    "schedule": {
+      "Senin": {
+        "17:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Fisika"
+        },
+        "18:45": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Fisika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Fisika"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {
+        "10:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        },
+        "11:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        }
+      }
+    }
+  },
+  {
+    "id": "dian_tri_nitya_sari",
+    "name": "Dian Tri Nitya Sari",
+    "email": "diant694@gmail.com",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/gif-pbsa-wfm",
+    "phone": "6281383657391",
+    "notes": "SMA",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "DT",
+    "rating": "5.0 (119 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [
+        "17:00",
+        "20:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "19:30",
+        "20:30"
+      ],
+      "Kamis": [
+        "19:30"
+      ],
+      "Jumat": [
+        "17:00"
+      ],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "17:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Selasa": {},
+      "Rabu": {
+        "19:30": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Fisika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Kamis": {
+        "19:30": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Jumat": {
+        "17:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ahmad_maskur_khairat",
+    "name": "Ahmad Maskur Khairat",
+    "email": "fisikaicp09@gmail.com",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/ugw-ebwa-ydt",
+    "phone": "6285255536902",
+    "notes": "SMA",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "AM",
+    "rating": "4.9 (59 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [],
+      "Selasa": [
+        "19:30",
+        "20:30"
+      ],
+      "Rabu": [
+        "19:30",
+        "20:30"
+      ],
+      "Kamis": [
+        "20:00"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {
+        "19:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Rabu": {
+        "19:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Kamis": {
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "vidyawati",
+    "name": "Vidyawati",
+    "email": "vidyawati2583@gmail.com",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/som-seqn-uwe",
+    "phone": "628111022270",
+    "notes": "SMA",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "V",
+    "rating": "4.9 (53 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "fifa_pransiska_indra_loseta",
+    "name": "Fifa Pransiska Indra Loseta",
+    "email": "fifafransiska15@gmail.com",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/rmn-uyji-qnc",
+    "phone": "6285749765105",
+    "notes": "SMP",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "FP",
+    "rating": "4.9 (60 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "verinda_shavira_sari",
+    "name": "Verinda Shavira Sari",
+    "email": "verindashavira@gmail.com",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/tvu-wmnq-dpr",
+    "phone": "6281252201138",
+    "notes": "SMP",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "VS",
+    "rating": "4.7 (121 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [
+        "17:00"
+      ],
+      "Selasa": [
+        "17:00"
+      ],
+      "Rabu": [
+        "18:45",
+        "20:00"
+      ],
+      "Kamis": [
+        "18:45",
+        "20:00"
+      ],
+      "Jumat": [
+        "18:45",
+        "20:00"
+      ],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "17:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "IPA Fis"
+        }
+      },
+      "Selasa": {
+        "17:00": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "IPA Fis"
+        }
+      },
+      "Rabu": {
+        "18:45": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "IPA Fis"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "IPA Fis"
+        }
+      },
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Jumat": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "jery_wardiman",
+    "name": "Jery Wardiman",
+    "email": "jerywardiman99@gmail.com",
+    "subject": "Ekonomi",
+    "gmeet": "https://meet.google.com/zmd-cmoh-rxg",
+    "phone": "6282284974388",
+    "notes": "SMP",
+    "subjects": [
+      "ekonomi"
+    ],
+    "avatar": "JW",
+    "rating": "4.7 (61 sesi)",
+    "desc": "Spesialis Ekonomi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "tiara_suci_andina",
+    "name": "Tiara Suci Andina",
+    "email": "tiaraasc@gmail.com",
+    "subject": "Ekonomi",
+    "gmeet": "https://meet.google.com/bbh-bpzf-rwf",
+    "phone": "6281918402208",
+    "notes": "SMA",
+    "subjects": [
+      "ekonomi"
+    ],
+    "avatar": "TS",
+    "rating": "4.8 (96 sesi)",
+    "desc": "Spesialis Ekonomi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "deri_prahayu_reunianda",
+    "name": "Deri Prahayu Reunianda",
+    "email": "derireunianda85@gmail.com",
+    "subject": "Geografi",
+    "gmeet": "https://meet.google.com/jdo-ckph-rbd",
+    "phone": "6285691180988",
+    "notes": "SD",
+    "subjects": [
+      "geografi"
+    ],
+    "avatar": "DP",
+    "rating": "4.8 (82 sesi)",
+    "desc": "Spesialis Geografi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "achmad_syarif",
+    "name": "Achmad Syarif",
+    "email": "achmad.syarif77@gmail.com",
+    "subject": "Geografi",
+    "gmeet": "https://meet.google.com/bfe-fdco-vrn",
+    "phone": "6285742981984",
+    "notes": "SMP",
+    "subjects": [
+      "geografi"
+    ],
+    "avatar": "AS",
+    "rating": "5.0 (121 sesi)",
+    "desc": "Spesialis Geografi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "adeliana",
+    "name": "Adeliana",
+    "email": "elliana063@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/jph-egbv-bho",
+    "phone": "62882009920912",
+    "notes": "",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "A",
+    "rating": "4.9 (120 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "18:45",
+        "20:00"
+      ],
+      "Selasa": [
+        "18:45",
+        "20:00"
+      ],
+      "Rabu": [
+        "18:45",
+        "20:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "18:45": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "5 SD",
+          "mapel": "Matematika"
+        }
+      },
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Rabu": {
+        "18:45": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "agus_herwanto",
+    "name": "Agus Herwanto",
+    "email": "agusherwanto8888@gmail.com",
+    "subject": "Kimia",
+    "gmeet": "https://meet.google.com/gzr-vrab-pia",
+    "phone": "628563414941",
+    "notes": "Anto",
+    "subjects": [
+      "kimia"
+    ],
+    "avatar": "AH",
+    "rating": "4.8 (43 sesi)",
+    "desc": "Spesialis Kimia",
+    "availability": {
+      "Senin": [
+        "20:00"
+      ],
+      "Selasa": [],
+      "Rabu": [],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "izzatul_islami",
+    "name": "Izzatul Islami",
+    "email": "izzaislami17@gmail.com",
+    "subject": "Biologi",
+    "gmeet": "https://meet.google.com/bqt-rxgt-dju",
+    "phone": "6281334943457",
+    "notes": "SMP",
+    "subjects": [
+      "biologi"
+    ],
+    "avatar": "II",
+    "rating": "4.8 (51 sesi)",
+    "desc": "Spesialis Biologi",
+    "availability": {
+      "Senin": [
+        "17:00"
+      ],
+      "Selasa": [
+        "17:00"
+      ],
+      "Rabu": [
+        "17:00"
+      ],
+      "Kamis": [
+        "17:00"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "17:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "IPA Bio"
+        }
+      },
+      "Selasa": {
+        "17:00": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "IPA Bio"
+        }
+      },
+      "Rabu": {
+        "17:00": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "IPA Bio"
+        }
+      },
+      "Kamis": {
+        "17:00": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "IPA Bio"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "risalahwati_romdhon",
+    "name": "Risalahwati Romdhon",
+    "email": "risalahwatiromdhon51@gmail.com",
+    "subject": "Sejarah",
+    "gmeet": "https://meet.google.com/iac-qgsx-pok",
+    "phone": "6289635691861",
+    "notes": "SMP",
+    "subjects": [
+      "sejarah"
+    ],
+    "avatar": "RR",
+    "rating": "4.8 (93 sesi)",
+    "desc": "Spesialis Sejarah",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "soetanto",
+    "name": "Soetanto",
+    "email": "soetanto.tan@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/nxt-qvhe-dsi",
+    "phone": "6285252102050",
+    "notes": "SMA",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "S",
+    "rating": "4.8 (40 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "18:45",
+        "20:00"
+      ],
+      "Selasa": [
+        "18:45"
+      ],
+      "Rabu": [
+        "18:45",
+        "20:00"
+      ],
+      "Kamis": [
+        "18:45",
+        "20:00"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Rabu": {
+        "18:45": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "raditya_pramana",
+    "name": "Raditya Pramana",
+    "email": "radityaulia1224@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/jaf-yvan-rpq",
+    "phone": "6281213882647",
+    "notes": "",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "RP",
+    "rating": "4.9 (137 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [],
+      "Selasa": [],
+      "Rabu": [],
+      "Kamis": [
+        "18:45",
+        "20:00"
+      ],
+      "Jumat": [
+        "18:45",
+        "20:00"
+      ],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Jumat": {
+        "18:45": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "mutiara_asyifa",
+    "name": "Mutiara Asyifa",
+    "email": "mutiaraasyifa288@gmail.com",
+    "subject": "Bahasa Inggris",
+    "gmeet": "https://meet.google.com/jdv-ohjx-jbn",
+    "phone": "6283182204435",
+    "notes": "",
+    "subjects": [
+      "bahasa_inggris"
+    ],
+    "avatar": "MA",
+    "rating": "4.8 (136 sesi)",
+    "desc": "Spesialis Bahasa Inggris",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ridho_bangun",
+    "name": "Ridho Bangun",
+    "email": "ridhobangun0607@gmail.com",
+    "subject": "Bahasa Inggris",
+    "gmeet": "https://meet.google.com/yqe-oypt-ohi",
+    "phone": "6281269017024",
+    "notes": "",
+    "subjects": [
+      "bahasa_inggris"
+    ],
+    "avatar": "RB",
+    "rating": "4.8 (132 sesi)",
+    "desc": "Spesialis Bahasa Inggris",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "condro_ayu_mukti_kuncoro",
+    "name": "Condro Ayu Mukti Kuncoro",
+    "email": "condroayu9@gmail.com",
+    "subject": "Bahasa Indonesia",
+    "gmeet": "https://meet.google.com/fkf-urrc-xdj",
+    "phone": "6287736382994",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "bahasa_indonesia"
+    ],
+    "avatar": "CA",
+    "rating": "4.8 (65 sesi)",
+    "desc": "Spesialis Bahasa Indonesia",
+    "availability": {
+      "Senin": [
+        "17:00",
+        "18:45"
+      ],
+      "Selasa": [
+        "18:45",
+        "20:00"
+      ],
+      "Rabu": [],
+      "Kamis": [
+        "18:45",
+        "20:00"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "17:00": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "Bahasa Indonesia"
+        },
+        "18:45": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Bahasa Indonesia"
+        }
+      },
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Bahasa Indonesia"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Bahasa Indonesia"
+        }
+      },
+      "Rabu": {},
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Bahasa Indonesia"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Bahasa Indonesia"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "puteri_bulqis_azhari",
+    "name": "Puteri Bulqis Azhari",
+    "email": "puteribulqisazhari@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/kzf-xhfr-orc",
+    "phone": "62895422146871",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "PB",
+    "rating": "4.9 (80 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "20:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "20:00"
+      ],
+      "Kamis": [],
+      "Jumat": [
+        "16:00",
+        "17:00"
+      ],
+      "Sabtu": [
+        "10:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {
+        "20:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Selasa": {},
+      "Rabu": {
+        "20:00": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "Matematika"
+        }
+      },
+      "Kamis": {},
+      "Jumat": {
+        "16:00": {
+          "type": "ST",
+          "class": "5 SD",
+          "mapel": "Matematika"
+        },
+        "17:00": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "Matematika"
+        }
+      },
+      "Sabtu": {
+        "10:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "12:30": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "Matematika"
+        }
+      }
+    }
+  },
+  {
+    "id": "fahrizal_afrianto",
+    "name": "Fahrizal Afrianto",
+    "email": "fahrizal.afrianto@gmail.com",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/nyv-ptnn-sbw",
+    "phone": "6281276018301",
+    "notes": "",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "FA",
+    "rating": "4.8 (102 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "istiqomah_ahsanu_amala",
+    "name": "Istiqomah Ahsanu Amala",
+    "email": "istiamala28@gmail.com",
+    "subject": "Bahasa Indonesia",
+    "gmeet": "https://meet.google.com/xnh-bubv-xyg",
+    "phone": "6281933033954",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "bahasa_indonesia"
+    ],
+    "avatar": "IA",
+    "rating": "4.9 (60 sesi)",
+    "desc": "Spesialis Bahasa Indonesia",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "khairunnisa_ramadhani_adam",
+    "name": "Khairunnisa Ramadhani Adam",
+    "email": "khairunnisaramadhaniadam2000@mail.ugm.ac.id",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/ryd-xbgv-ymb",
+    "phone": "6282393467873",
+    "notes": "SMP, SMA",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "KR",
+    "rating": "4.7 (111 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [
+        "18:45"
+      ],
+      "Selasa": [
+        "20:00"
+      ],
+      "Rabu": [
+        "20:00"
+      ],
+      "Kamis": [
+        "17:00",
+        "20:00"
+      ],
+      "Jumat": [
+        "16:00",
+        "20:00"
+      ],
+      "Sabtu": [
+        "10:00"
+      ]
+    },
+    "schedule": {
+      "Senin": {
+        "18:45": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Selasa": {
+        "20:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "IPA Fis"
+        }
+      },
+      "Rabu": {
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Kamis": {
+        "17:00": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "IPA Fis"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "IPA Fis"
+        }
+      },
+      "Jumat": {
+        "16:00": {
+          "type": "ST",
+          "class": "7 SMP",
+          "mapel": "IPA Fis"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "8 SMP",
+          "mapel": "IPA Fis"
+        }
+      },
+      "Sabtu": {
+        "10:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "IPA Fis"
+        }
+      }
+    }
+  },
+  {
+    "id": "muhammad_faizal_arifi",
+    "name": "Muhammad Faizal Arifi",
+    "email": "faizarifi11@gmail.com",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/gbq-zmac-trp",
+    "phone": "6282228511772",
+    "notes": "SMP, SMA",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "MF",
+    "rating": "4.9 (119 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [
+        "18:45",
+        "20:00"
+      ],
+      "Selasa": [
+        "18:45",
+        "20:00"
+      ],
+      "Rabu": [
+        "17:00",
+        "18:45",
+        "20:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "18:45": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Fisika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Rabu": {
+        "17:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Fisika"
+        },
+        "18:45": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Fisika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Fisika"
+        }
+      },
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "muafillah_shofah",
+    "name": "Muafillah Shofah",
+    "email": "muafillah@gmail.com",
+    "subject": "Kimia",
+    "gmeet": "https://meet.google.com/qyg-owjd-kew",
+    "phone": "6285733252672",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "kimia"
+    ],
+    "avatar": "MS",
+    "rating": "4.9 (123 sesi)",
+    "desc": "Spesialis Kimia",
+    "availability": {
+      "Senin": [],
+      "Selasa": [
+        "18:45",
+        "20:00"
+      ],
+      "Rabu": [],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Kimia"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "shaila_khoirun_nisa_siswanto",
+    "name": "Shaila Khoirun Nisa Siswanto",
+    "email": "shailakhoirun@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/tmr-ziio-bfm",
+    "phone": "6282143239810",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "SK",
+    "rating": "4.7 (73 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "17:00",
+        "18:45"
+      ],
+      "Selasa": [
+        "18:45",
+        "20:00"
+      ],
+      "Rabu": [
+        "18:45",
+        "20:00"
+      ],
+      "Kamis": [
+        "20:30"
+      ],
+      "Jumat": [
+        "17:00"
+      ],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "17:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        },
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Rabu": {
+        "18:45": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Kamis": {
+        "20:30": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Jumat": {
+        "17:00": {
+          "type": "ST",
+          "class": "6 SD",
+          "mapel": "Matematika"
+        }
+      },
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "dea_nabila_putri",
+    "name": "Dea Nabila Putri",
+    "email": "deanabilaputri.business@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/hid-okrw-ubb",
+    "phone": "628973939379",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "DN",
+    "rating": "4.9 (98 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "19:30",
+        "20:30"
+      ],
+      "Selasa": [
+        "19:30",
+        "20:30"
+      ],
+      "Rabu": [],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "19:30": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Matematika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Selasa": {
+        "19:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "20:30": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "fenti_yuniarsari",
+    "name": "Fenti Yuniarsari",
+    "email": "fenti.yuniarsari@gmail.com",
+    "subject": "Bahasa Inggris",
+    "gmeet": "https://meet.google.com/jcw-ocdx-uva",
+    "phone": "6287863563211",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "bahasa_inggris"
+    ],
+    "avatar": "FY",
+    "rating": "4.7 (64 sesi)",
+    "desc": "Spesialis Bahasa Inggris",
+    "availability": {
+      "Senin": [
+        "18:45"
+      ],
+      "Selasa": [
+        "19:30"
+      ],
+      "Rabu": [
+        "18:45"
+      ],
+      "Kamis": [
+        "18:45"
+      ],
+      "Jumat": [
+        "18:45"
+      ],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "18:45": {
+          "type": "ST",
+          "class": "12 SMA IPA IPS",
+          "mapel": "Bahasa Inggris"
+        }
+      },
+      "Selasa": {
+        "19:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Bahasa Inggris"
+        }
+      },
+      "Rabu": {
+        "18:45": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Bahasa Inggris"
+        }
+      },
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Bahasa Inggris"
+        }
+      },
+      "Jumat": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Bahasa Inggris"
+        }
+      },
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "kuntanto",
+    "name": "Kuntanto",
+    "email": "kuntanto210421@gmail.com",
+    "subject": "Bahasa Indonesia",
+    "gmeet": "https://meet.google.com/jtt-waku-zcy",
+    "phone": "6285820215328",
+    "notes": "",
+    "subjects": [
+      "bahasa_indonesia"
+    ],
+    "avatar": "K",
+    "rating": "5.0 (132 sesi)",
+    "desc": "Spesialis Bahasa Indonesia",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "muhammad_purnomo",
+    "name": "Muhammad Purnomo",
+    "email": "muhammad.purnomo.280683@gmail.com",
+    "subject": "Bahasa Indonesia",
+    "gmeet": "https://meet.google.com/qip-xxph-hpp",
+    "phone": "6285730331111",
+    "notes": "",
+    "subjects": [
+      "bahasa_indonesia"
+    ],
+    "avatar": "MP",
+    "rating": "5.0 (72 sesi)",
+    "desc": "Spesialis Bahasa Indonesia",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "putri_maura_rangkuti",
+    "name": "Putri Maura Rangkuti",
+    "email": "utimaura@gmail.com",
+    "subject": "Biologi",
+    "gmeet": "https://meet.google.com/kvj-vkgm-pqn",
+    "phone": "628988300041",
+    "notes": "",
+    "subjects": [
+      "biologi"
+    ],
+    "avatar": "PM",
+    "rating": "4.8 (58 sesi)",
+    "desc": "Spesialis Biologi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "fitri_balqis",
+    "name": "Fitri Balqis",
+    "email": "fitribalqissss@gmail.com",
+    "subject": "Biologi",
+    "gmeet": "https://meet.google.com/hmz-kcvy-baw",
+    "phone": "6282167140730",
+    "notes": "",
+    "subjects": [
+      "biologi"
+    ],
+    "avatar": "FB",
+    "rating": "4.7 (53 sesi)",
+    "desc": "Spesialis Biologi",
+    "availability": {
+      "Senin": [],
+      "Selasa": [
+        "20:00"
+      ],
+      "Rabu": [
+        "20:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Biologi"
+        }
+      },
+      "Rabu": {
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Biologi"
+        }
+      },
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "nur_tsurayya",
+    "name": "Nur Tsurayya",
+    "email": "nurtsurayya@gmail.com",
+    "subject": "Biologi",
+    "gmeet": "https://meet.google.com/pyb-vuyx-drh",
+    "phone": "6282118039805",
+    "notes": "",
+    "subjects": [
+      "biologi"
+    ],
+    "avatar": "NT",
+    "rating": "5.0 (76 sesi)",
+    "desc": "Spesialis Biologi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "farhan_wali_bachtier",
+    "name": "Farhan Wali Bachtier",
+    "email": "farhanwalibachtier@gmail.com",
+    "subject": "Biologi",
+    "gmeet": "https://meet.google.com/yfw-sjyw-qsh",
+    "phone": "6282314852278",
+    "notes": "",
+    "subjects": [
+      "biologi"
+    ],
+    "avatar": "FW",
+    "rating": "4.8 (55 sesi)",
+    "desc": "Spesialis Biologi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "armalinda_pertiwi",
+    "name": "Armalinda Pertiwi",
+    "email": "armalindahariyanto@gmail.com",
+    "subject": "Biologi",
+    "gmeet": "https://meet.google.com/uaq-cmff-bac",
+    "phone": "6281280310551",
+    "notes": "",
+    "subjects": [
+      "biologi"
+    ],
+    "avatar": "AP",
+    "rating": "4.8 (64 sesi)",
+    "desc": "Spesialis Biologi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ahmad_ardani",
+    "name": "Ahmad Ardani",
+    "email": "ahmad.ardani21@gmail.com",
+    "subject": "Kimia",
+    "gmeet": "https://meet.google.com/rzc-kzpm-bda",
+    "phone": "6282282592737",
+    "notes": "Icha",
+    "subjects": [
+      "kimia"
+    ],
+    "avatar": "AA",
+    "rating": "5.0 (61 sesi)",
+    "desc": "Spesialis Kimia",
+    "availability": {
+      "Senin": [
+        "19:30"
+      ],
+      "Selasa": [
+        "18:45"
+      ],
+      "Rabu": [],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "19:30": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "annisa_sholehah",
+    "name": "Annisa Sholehah",
+    "email": "annsholehah02@gmail.com",
+    "subject": "Kimia",
+    "gmeet": "https://meet.google.com/uvk-kooq-ouy",
+    "phone": "6282142527043",
+    "notes": "Icha",
+    "subjects": [
+      "kimia"
+    ],
+    "avatar": "AS",
+    "rating": "4.8 (100 sesi)",
+    "desc": "Spesialis Kimia",
+    "availability": {
+      "Senin": [],
+      "Selasa": [
+        "20:30"
+      ],
+      "Rabu": [
+        "17:00",
+        "18:45",
+        "20:00"
+      ],
+      "Kamis": [
+        "20:30"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {
+        "20:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Rabu": {
+        "17:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Kimia"
+        },
+        "18:45": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Kimia"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Kamis": {
+        "20:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Kimia"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "muhammad_fauzi_rachman",
+    "name": "Muhammad Fauzi Rachman",
+    "email": "muhammadfauzi172000@gmail.com",
+    "subject": "Sejarah",
+    "gmeet": "https://meet.google.com/sdf-xgax-vss",
+    "phone": "6281383547452",
+    "notes": "",
+    "subjects": [
+      "sejarah"
+    ],
+    "avatar": "MF",
+    "rating": "4.8 (104 sesi)",
+    "desc": "Spesialis Sejarah",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "muhammad_akmal_ashari",
+    "name": "Muhammad Akmal Ashari",
+    "email": "akmal.ashari08@gmail.com",
+    "subject": "Sejarah",
+    "gmeet": "https://meet.google.com/fsv-hguu-heq",
+    "phone": "6281399474740",
+    "notes": "",
+    "subjects": [
+      "sejarah"
+    ],
+    "avatar": "MA",
+    "rating": "4.8 (49 sesi)",
+    "desc": "Spesialis Sejarah",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ilham_andika_putra_m_pd",
+    "name": "Ilham Andika Putra M.Pd",
+    "email": "iandikap97@gmail.com",
+    "subject": "Sosiologi",
+    "gmeet": "https://meet.google.com/drf-njes-itf",
+    "phone": "6282116478158",
+    "notes": "",
+    "subjects": [
+      "sosiologi"
+    ],
+    "avatar": "IA",
+    "rating": "5.0 (79 sesi)",
+    "desc": "Spesialis Sosiologi",
+    "availability": {
+      "Senin": [
+        "18:45",
+        "20:00"
+      ],
+      "Selasa": [],
+      "Rabu": [],
+      "Kamis": [
+        "18:45",
+        "20:00"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPS",
+          "mapel": "Sosiologi"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPS",
+          "mapel": "Sosiologi"
+        }
+      },
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPS",
+          "mapel": "Sosiologi"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPS",
+          "mapel": "Sosiologi"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "hasan_darmawan",
+    "name": "Hasan Darmawan",
+    "email": "2215015035@webmail.uad.ac.id",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/uiu-dhvz-ejd",
+    "phone": "6285694294438",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "HD",
+    "rating": "4.9 (83 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "20:30"
+      ],
+      "Selasa": [
+        "20:30"
+      ],
+      "Rabu": [
+        "20:30"
+      ],
+      "Kamis": [
+        "20:30"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "20:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Selasa": {
+        "20:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Rabu": {
+        "20:30": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Kamis": {
+        "20:30": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "munbais_husni_zam_zam",
+    "name": "Munbais Husni Zam Zam",
+    "email": "munbaish@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/pww-nuqk-tmk",
+    "phone": "6289662752220",
+    "notes": "",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "MH",
+    "rating": "5.0 (121 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "20:30"
+      ],
+      "Selasa": [
+        "20:30"
+      ],
+      "Rabu": [
+        "20:30"
+      ],
+      "Kamis": [
+        "20:30"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "20:30": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Selasa": {
+        "20:30": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Rabu": {
+        "20:30": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Kamis": {
+        "20:30": {
+          "type": "ST",
+          "class": "12 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "lutfiyah",
+    "name": "Lutfiyah",
+    "email": "lutfiyah2723@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/iso-hhsb-qap",
+    "phone": "6285748428547",
+    "notes": "",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "L",
+    "rating": "4.8 (102 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "oktarina_widarsih",
+    "name": "Oktarina Widarsih",
+    "email": "oktarina.bengkulu@gmail.com",
+    "subject": "Bahasa Indonesia",
+    "gmeet": "https://meet.google.com/mpo-qwkr-jrw",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "bahasa_indonesia"
+    ],
+    "avatar": "OW",
+    "rating": "5.0 (130 sesi)",
+    "desc": "Spesialis Bahasa Indonesia",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "fidiatun_nofus",
+    "name": "Fidiatun Nofus",
+    "email": "fidiatunnofus@gmail.com",
+    "subject": "Geografi",
+    "gmeet": "https://meet.google.com/pax-jkoc-jtu",
+    "phone": "6283176443101",
+    "notes": "",
+    "subjects": [
+      "geografi"
+    ],
+    "avatar": "FN",
+    "rating": "4.9 (137 sesi)",
+    "desc": "Spesialis Geografi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "hisar_asman_mirsa_harahap",
+    "name": "Hisar Asman Mirsa Harahap",
+    "email": "hisboom.2101@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/rhn-dtpq-paq",
+    "phone": "6282277437047",
+    "notes": "",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "HA",
+    "rating": "4.7 (113 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [],
+      "Selasa": [],
+      "Rabu": [],
+      "Kamis": [
+        "18:45",
+        "20:00"
+      ],
+      "Jumat": [
+        "18:45",
+        "20:00"
+      ],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Jumat": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Matematika"
+        }
+      },
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "dian_amanatul_hikmah",
+    "name": "Dian Amanatul Hikmah",
+    "email": "dian.hikmah9@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/cpk-bvyw-jgj",
+    "phone": "6285600110600",
+    "notes": "",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "DA",
+    "rating": "4.9 (67 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ayuni_sofinatul_mubarokah",
+    "name": "Ayuni Sofinatul Mubarokah",
+    "email": "ayunisofi118@gmail.com",
+    "subject": "Bahasa Indonesia",
+    "gmeet": "https://meet.google.com/tog-vzmp-xhn",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "bahasa_indonesia"
+    ],
+    "avatar": "AS",
+    "rating": "4.9 (61 sesi)",
+    "desc": "Spesialis Bahasa Indonesia",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "verani_rosa_belinda",
+    "name": "Verani Rosa Belinda",
+    "email": "veranirosabelinda@gmail.com",
+    "subject": "Informatika",
+    "gmeet": "https://meet.google.com/xie-stnj-uit",
+    "phone": "6282234883984",
+    "notes": "",
+    "subjects": [
+      "informatika"
+    ],
+    "avatar": "VR",
+    "rating": "4.7 (83 sesi)",
+    "desc": "Spesialis Informatika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "rahmania_tulus_setya_pratiwi",
+    "name": "Rahmania Tulus Setya Pratiwi",
+    "email": "rahmania.pratiwi@gmail.com",
+    "subject": "Kimia",
+    "gmeet": "https://meet.google.com/mii-ckjp-gxg",
+    "phone": "6285176760825",
+    "notes": "",
+    "subjects": [
+      "kimia"
+    ],
+    "avatar": "RT",
+    "rating": "4.9 (137 sesi)",
+    "desc": "Spesialis Kimia",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ahsana_rizky_mashura",
+    "name": "Ahsana Rizky Mashura",
+    "email": "ahsanarizkym@gmail.com",
+    "subject": "Informatika",
+    "gmeet": "https://meet.google.com/nwj-dmsn-fjc",
+    "phone": "6281228263378",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "informatika"
+    ],
+    "avatar": "AR",
+    "rating": "4.8 (88 sesi)",
+    "desc": "Spesialis Informatika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "gusnario_hardi",
+    "name": "Gusnario Hardi",
+    "email": "gusnario.hardi@gmail.com",
+    "subject": "Informatika",
+    "gmeet": "https://meet.google.com/zas-utok-otp",
+    "phone": "6281363300887",
+    "notes": "",
+    "subjects": [
+      "informatika"
+    ],
+    "avatar": "GH",
+    "rating": "5.0 (90 sesi)",
+    "desc": "Spesialis Informatika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "siti_annisa_rahma",
+    "name": "Siti Annisa Rahma",
+    "email": "sitiannisarahma@gmail.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/jvk-gzcr-nix",
+    "phone": "6285870125872",
+    "notes": "",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "SA",
+    "rating": "5.0 (62 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "mutiara_p__tampak_edla",
+    "name": "Mutiara P. Tampak Edla",
+    "email": "mutiaraedla@gmail.com",
+    "subject": "Kimia",
+    "gmeet": "https://meet.google.com/jex-cvei-hfg",
+    "phone": "6289632265360",
+    "notes": "",
+    "subjects": [
+      "kimia"
+    ],
+    "avatar": "MP",
+    "rating": "4.8 (78 sesi)",
+    "desc": "Spesialis Kimia",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "muhammad_arfani_asra",
+    "name": "Muhammad Arfani Asra",
+    "email": "arfani152@gmail.com",
+    "subject": "Informatika",
+    "gmeet": "https://meet.google.com/bud-rwro-gma",
+    "phone": "6282187804774",
+    "notes": "",
+    "subjects": [
+      "informatika"
+    ],
+    "avatar": "MA",
+    "rating": "4.7 (53 sesi)",
+    "desc": "Spesialis Informatika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "triana_mar_atus_solihah",
+    "name": "Triana Mar'atus Solihah",
+    "email": "tria0197@gmail.com",
+    "subject": "PPU PBM",
+    "gmeet": "https://meet.google.com/rea-hkne-xfk",
+    "phone": "6285161711063",
+    "notes": "",
+    "subjects": [
+      "ppu_pbm"
+    ],
+    "avatar": "TM",
+    "rating": "5.0 (88 sesi)",
+    "desc": "Spesialis PPU PBM",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "heni_fitria_puspitasari",
+    "name": "Heni Fitria Puspitasari",
+    "email": "henifipuri@gmail.com",
+    "subject": "LBI",
+    "gmeet": "https://meet.google.com/fey-kbyj-jfs",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "lbi"
+    ],
+    "avatar": "HF",
+    "rating": "4.8 (46 sesi)",
+    "desc": "Spesialis LBI",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "nyimas_larasati_utami",
+    "name": "Nyimas Larasati Utami",
+    "email": "nyslarasatiutami@gmail.com",
+    "subject": "LBE",
+    "gmeet": "https://meet.google.com/cvv-ynzw-rai",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "lbe"
+    ],
+    "avatar": "NL",
+    "rating": "4.9 (41 sesi)",
+    "desc": "Spesialis LBE",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "fadli_pratama_oselian",
+    "name": "Fadli Pratama Oselian",
+    "email": "oselianf@gmail.com",
+    "subject": "LBI",
+    "gmeet": "https://meet.google.com/hih-xqno-cgb",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "lbi"
+    ],
+    "avatar": "FP",
+    "rating": "4.8 (58 sesi)",
+    "desc": "Spesialis LBI",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "rozky_fariza",
+    "name": "Rozky Fariza",
+    "email": "rozkyf@gmail.com",
+    "subject": "LBE",
+    "gmeet": "https://meet.google.com/wvm-atrq-mwz",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "lbe"
+    ],
+    "avatar": "RF",
+    "rating": "4.8 (84 sesi)",
+    "desc": "Spesialis LBE",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ayuni_sofinatul_mubarokah",
+    "name": "Ayuni Sofinatul Mubarokah",
+    "email": "ayunisofi118@gmail.com",
+    "subject": "PNU PPU",
+    "gmeet": "https://meet.google.com/ufg-gyqe-hhp",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "pnu_ppu"
+    ],
+    "avatar": "AS",
+    "rating": "4.9 (108 sesi)",
+    "desc": "Spesialis PNU PPU",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "bimantara_adhitama",
+    "name": "Bimantara Adhitama",
+    "email": "bimaadhitama165@gmail.com",
+    "subject": "PKT",
+    "gmeet": "https://meet.google.com/ija-guyd-acw",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "pkt"
+    ],
+    "avatar": "BA",
+    "rating": "4.8 (81 sesi)",
+    "desc": "Spesialis PKT",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "daffa_rafli_afrizal",
+    "name": "Daffa Rafli Afrizal",
+    "email": "daffa.raf2003@mail.ugm.ac.id",
+    "subject": "PNU PKT PNM",
+    "gmeet": "https://meet.google.com/cwn-wnft-zyc",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "pnu_pkt_pnm"
+    ],
+    "avatar": "DR",
+    "rating": "4.8 (129 sesi)",
+    "desc": "Spesialis PNU PKT PNM",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "puja_deasy_adelia",
+    "name": "Puja Deasy Adelia",
+    "email": "wedeliasy@gmail.com",
+    "subject": "PPU PBM",
+    "gmeet": "https://meet.google.com/uwd-xoet-gyf",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "ppu_pbm"
+    ],
+    "avatar": "PD",
+    "rating": "4.7 (80 sesi)",
+    "desc": "Spesialis PPU PBM",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "hanifah_nurdani",
+    "name": "Hanifah Nurdani",
+    "email": "hanifahnurdani@gmail.com",
+    "subject": "LBE",
+    "gmeet": "https://meet.google.com/wow-ntkz-otz",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "lbe"
+    ],
+    "avatar": "HN",
+    "rating": "5.0 (119 sesi)",
+    "desc": "Spesialis LBE",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "hotdiana_nababan",
+    "name": "Hotdiana Nababan",
+    "email": "hotdiananababan2020@gmail.com",
+    "subject": "PBM",
+    "gmeet": "https://meet.google.com/pfb-yyzz-pkn",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "pbm"
+    ],
+    "avatar": "HN",
+    "rating": "4.9 (100 sesi)",
+    "desc": "Spesialis PBM",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ram_daniel_andrian_vernando",
+    "name": "Ram Daniel Andrian Vernando",
+    "email": "ramdanielfiles@gmail.com",
+    "subject": "PNM",
+    "gmeet": "https://meet.google.com/wkj-tnmd-szm",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "pnm"
+    ],
+    "avatar": "RD",
+    "rating": "4.9 (58 sesi)",
+    "desc": "Spesialis PNM",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "jimmy_pranata",
+    "name": "Jimmy Pranata",
+    "email": "jimmypranata1997@gmail.com",
+    "subject": "LBE",
+    "gmeet": "https://meet.google.com/zkx-rrnb-ngj",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "lbe"
+    ],
+    "avatar": "JP",
+    "rating": "5.0 (51 sesi)",
+    "desc": "Spesialis LBE",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "hanifah_nurdani",
+    "name": "Hanifah Nurdani",
+    "email": "hanifahnurdani@gmail.com",
+    "subject": "Bahasa Inggris",
+    "gmeet": "https://meet.google.com/arz-baru-imh",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "bahasa_inggris"
+    ],
+    "avatar": "HN",
+    "rating": "4.7 (109 sesi)",
+    "desc": "Spesialis Bahasa Inggris",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ratu_raksita_dhira_tjemerlang",
+    "name": "Ratu Raksita Dhira Tjemerlang",
+    "email": "raksitadhira@gmail.com",
+    "subject": "Bahasa Inggris",
+    "gmeet": "https://meet.google.com/jaw-xpmt-cwy",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "bahasa_inggris"
+    ],
+    "avatar": "RR",
+    "rating": "4.8 (42 sesi)",
+    "desc": "Spesialis Bahasa Inggris",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "adi_mazdi_syam",
+    "name": "Adi Mazdi Syam",
+    "email": "adimazdisyam.id@gmail.com",
+    "subject": "Biologi",
+    "gmeet": "https://meet.google.com/bbx-xojy-tsb",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "biologi"
+    ],
+    "avatar": "AM",
+    "rating": "5.0 (97 sesi)",
+    "desc": "Spesialis Biologi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "gita_ayu_lestari",
+    "name": "Gita Ayu Lestari",
+    "email": "lestarigita26@gmail.com",
+    "subject": "Biologi",
+    "gmeet": "https://meet.google.com/bdx-bnfj-pda",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "biologi"
+    ],
+    "avatar": "GA",
+    "rating": "4.9 (71 sesi)",
+    "desc": "Spesialis Biologi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "m__nizam_zulfi_zakaria",
+    "name": "M. Nizam Zulfi Zakaria",
+    "email": "nizamzakaria04@gmail.com",
+    "subject": "Biologi",
+    "gmeet": "https://meet.google.com/dcn-sitw-vof",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "biologi"
+    ],
+    "avatar": "MN",
+    "rating": "4.7 (86 sesi)",
+    "desc": "Spesialis Biologi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "endah_nur_amalina",
+    "name": "Endah Nur Amalina",
+    "email": "endahnuramalina.ea@gmail.com",
+    "subject": "Ekonomi",
+    "gmeet": "https://meet.google.com/hqp-uecv-hpy",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "ekonomi"
+    ],
+    "avatar": "EN",
+    "rating": "4.8 (116 sesi)",
+    "desc": "Spesialis Ekonomi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "panji_purba",
+    "name": "Panji Purba",
+    "email": "panji215@guru.sma.belajar.id",
+    "subject": "Ekonomi",
+    "gmeet": "https://meet.google.com/vzg-tvty-bkz",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "ekonomi"
+    ],
+    "avatar": "PP",
+    "rating": "4.8 (104 sesi)",
+    "desc": "Spesialis Ekonomi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "cindy_raystia_nur_anisa",
+    "name": "Cindy Raystia Nur Anisa",
+    "email": "cindy181@guru.sma.belajar.id",
+    "subject": "Sosiologi",
+    "gmeet": "https://meet.google.com/pyk-ijnm-rpb",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "sosiologi"
+    ],
+    "avatar": "CR",
+    "rating": "4.9 (122 sesi)",
+    "desc": "Spesialis Sosiologi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ambaristi_hersita_milanguni",
+    "name": "Ambaristi Hersita Milanguni",
+    "email": "ambaristihersita@gmail.com",
+    "subject": "Bahasa Indonesia",
+    "gmeet": "https://meet.google.com/bfu-mxpf-hcb",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "bahasa_indonesia"
+    ],
+    "avatar": "AH",
+    "rating": "4.8 (77 sesi)",
+    "desc": "Spesialis Bahasa Indonesia",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "gabriella_yovi_pratama_putri",
+    "name": "Gabriella Yovi Pratama Putri",
+    "email": "gabriellayovi@gmail.com",
+    "subject": "Kimia",
+    "gmeet": "https://meet.google.com/any-dydv-daa",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "kimia"
+    ],
+    "avatar": "GY",
+    "rating": "4.9 (82 sesi)",
+    "desc": "Spesialis Kimia",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "johandi_rahma_rafani",
+    "name": "Johandi Rahma Rafani",
+    "email": "johandirahma68@gmail.com",
+    "subject": "Geografi",
+    "gmeet": "https://meet.google.com/mro-kcxq-sgt",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "geografi"
+    ],
+    "avatar": "JR",
+    "rating": "4.8 (76 sesi)",
+    "desc": "Spesialis Geografi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "oktarina_widarsih",
+    "name": "Oktarina Widarsih",
+    "email": "oktarina.bengkulu@gmail.com",
+    "subject": "Bahasa Indonesia",
+    "gmeet": "https://meet.google.com/mpo-qwkr-jrw",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "bahasa_indonesia"
+    ],
+    "avatar": "OW",
+    "rating": "4.9 (48 sesi)",
+    "desc": "Spesialis Bahasa Indonesia",
+    "availability": {
+      "Senin": [
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [
+        "17:00"
+      ],
+      "Rabu": [
+        "18:45"
+      ],
+      "Kamis": [
+        "18:45"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {
+        "16:00": {
+          "type": "ST",
+          "class": "12 SMA IPA IPS",
+          "mapel": "Bahasa Indonesia"
+        },
+        "17:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Bahasa Indonesia"
+        }
+      },
+      "Selasa": {
+        "17:00": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Bahasa Indonesia"
+        }
+      },
+      "Rabu": {
+        "18:45": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Bahasa Indonesia"
+        }
+      },
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "9 SMP",
+          "mapel": "Bahasa Indonesia"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "heni_fitria_puspitasari",
+    "name": "Heni Fitria Puspitasari",
+    "email": "henifipuri@gmail.com",
+    "subject": "Bahasa Indonesia",
+    "gmeet": "https://meet.google.com/fey-kbyj-jfs",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "bahasa_indonesia"
+    ],
+    "avatar": "HF",
+    "rating": "4.9 (124 sesi)",
+    "desc": "Spesialis Bahasa Indonesia",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "laurentia_swardani_eka_pangensih",
+    "name": "Laurentia Swardani Eka Pangensih",
+    "email": "laurentiaswardani@gmail.com",
+    "subject": "Biologi",
+    "gmeet": "https://meet.google.com/gch-wojy-xqq",
+    "phone": "",
+    "notes": "SD",
+    "subjects": [
+      "biologi"
+    ],
+    "avatar": "LS",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Biologi",
+    "availability": {
+      "Senin": [],
+      "Selasa": [
+        "18:45"
+      ],
+      "Rabu": [],
+      "Kamis": [
+        "18:45",
+        "20:00"
+      ],
+      "Jumat": [],
+      "Sabtu": []
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {
+        "18:45": {
+          "type": "ST",
+          "class": "11 SMA IPA",
+          "mapel": "Biologi"
+        }
+      },
+      "Rabu": {},
+      "Kamis": {
+        "18:45": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Biologi"
+        },
+        "20:00": {
+          "type": "ST",
+          "class": "10 SMA IPA",
+          "mapel": "Biologi"
+        }
+      },
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "alawia_chusna",
+    "name": "Alawia Chusna",
+    "email": "alawiachusna@ruangguru.com",
+    "subject": "Kimia",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "SMA",
+    "subjects": [
+      "kimia"
+    ],
+    "avatar": "AC",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Kimia",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "galeh_prasetyo",
+    "name": "Galeh Prasetyo",
+    "email": "galehprasetyo@ruangguru.com",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "SMA",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "GP",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "fadilah_handayani",
+    "name": "Fadilah Handayani",
+    "email": "fadilahhandayani@ruangguru.com",
+    "subject": "Geografi",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "SMA",
+    "subjects": [
+      "geografi"
+    ],
+    "avatar": "FH",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Geografi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "heni_hudayanti",
+    "name": "Heni Hudayanti",
+    "email": "henihudayanti@ruangguru.com",
+    "subject": "Geografi",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "SMP",
+    "subjects": [
+      "geografi"
+    ],
+    "avatar": "HH",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Geografi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ni_made_astri_dwi_jayanthi",
+    "name": "Ni Made Astri Dwi Jayanthi",
+    "email": "nimadeastridwijayanthi@ruangguru.com",
+    "subject": "Sosiologi",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "SMP",
+    "subjects": [
+      "sosiologi"
+    ],
+    "avatar": "NM",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Sosiologi",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "muhammad_badrus_sholeh",
+    "name": "Muhammad Badrus Sholeh",
+    "email": "muhammadbadrussholeh@ruangguru.com",
+    "subject": "Sejarah",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "SMP",
+    "subjects": [
+      "sejarah"
+    ],
+    "avatar": "MB",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Sejarah",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ainun_jaariah",
+    "name": "Ainun Jaariah",
+    "email": "ainunjaariah@ruangguru.com",
+    "subject": "Bahasa Inggris",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "bahasa_inggris"
+    ],
+    "avatar": "AJ",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Bahasa Inggris",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "vita_ayu_nurjanah",
+    "name": "Vita Ayu Nurjanah",
+    "email": "vitaayunurjanah@ruangguru.com",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "VA",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "fachrizal_afrianto",
+    "name": "Fachrizal Afrianto",
+    "email": "fachrizalafrianto@ruangguru.com",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "FA",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "deo_bernedy_putra",
+    "name": "Deo Bernedy Putra",
+    "email": "deobernedyputra@ruangguru.com",
+    "subject": "PKN",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "SD, SMP, SMA",
+    "subjects": [
+      "pkn"
+    ],
+    "avatar": "DB",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis PKN",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "maulida_ridani",
+    "name": "Maulida Ridani",
+    "email": "maulidaridani@ruangguru.com",
+    "subject": "Kimia",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "kimia"
+    ],
+    "avatar": "MR",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Kimia",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "rafika_elmuti_ah",
+    "name": "Rafika Elmuti'ah",
+    "email": "rafikaelmutiah@ruangguru.com",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "RE",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "ismi_nurul_na_imah",
+    "name": "Ismi Nurul Na'imah",
+    "email": "isminurulnaimah@ruangguru.com",
+    "subject": "Fisika",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "fisika"
+    ],
+    "avatar": "IN",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Fisika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  },
+  {
+    "id": "kurniadi_rizki",
+    "name": "Kurniadi Rizki",
+    "email": "kurniadirizki@ruangguru.com",
+    "subject": "Matematika",
+    "gmeet": "https://meet.google.com/xxx-yyyy-zzz",
+    "phone": "",
+    "notes": "",
+    "subjects": [
+      "matematika"
+    ],
+    "avatar": "KR",
+    "rating": "4.8 (50 sesi)",
+    "desc": "Spesialis Matematika",
+    "availability": {
+      "Senin": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Selasa": [],
+      "Rabu": [
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00"
+      ],
+      "Kamis": [],
+      "Jumat": [],
+      "Sabtu": [
+        "10:00",
+        "11:00",
+        "12:30"
+      ]
+    },
+    "schedule": {
+      "Senin": {},
+      "Selasa": {},
+      "Rabu": {},
+      "Kamis": {},
+      "Jumat": {},
+      "Sabtu": {}
+    }
+  }
+]

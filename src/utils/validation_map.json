@@ -1,0 +1,386 @@
+{
+  "3 SD|Matematika": {
+    "gradeSerial": "CMP-52J4JHX9",
+    "subjectSerial": "Node-SOY2ZWNC"
+  },
+  "3 SD|Bahasa Indonesia": {
+    "gradeSerial": "CMP-52J4JHX9",
+    "subjectSerial": "Node-05MT3TEM"
+  },
+  "3 SD|Bahasa Inggris": {
+    "gradeSerial": "CMP-52J4JHX9",
+    "subjectSerial": "Node-IE2EUS4E"
+  },
+  "3 SD|IPAS IPS": {
+    "gradeSerial": "CMP-52J4JHX9",
+    "subjectSerial": "Node-1AY25IS8"
+  },
+  "3 SD|IPAS IPA": {
+    "gradeSerial": "CMP-52J4JHX9",
+    "subjectSerial": "Node-SEA9C4SB"
+  },
+  "3 SD|PKN": {
+    "gradeSerial": "CMP-52J4JHX9",
+    "subjectSerial": "Node-QORYJ3GR"
+  },
+  "4 SD|Matematika": {
+    "gradeSerial": "CMP-VGYKEHGA",
+    "subjectSerial": "Node-P05SFG4H"
+  },
+  "4 SD|Bahasa Indonesia": {
+    "gradeSerial": "CMP-VGYKEHGA",
+    "subjectSerial": "Node-X4XXZRKJ"
+  },
+  "4 SD|Bahasa Inggris": {
+    "gradeSerial": "CMP-VGYKEHGA",
+    "subjectSerial": "Node-1QS4NQYP"
+  },
+  "4 SD|IPAS IPS": {
+    "gradeSerial": "CMP-VGYKEHGA",
+    "subjectSerial": "Node-8A9SDT99"
+  },
+  "4 SD|IPAS IPA": {
+    "gradeSerial": "CMP-VGYKEHGA",
+    "subjectSerial": "Node-PC33I9Z4"
+  },
+  "4 SD|PKN": {
+    "gradeSerial": "CMP-VGYKEHGA",
+    "subjectSerial": "Node-F0USOK8V"
+  },
+  "5 SD|Matematika": {
+    "gradeSerial": "CMP-16YQSVLR",
+    "subjectSerial": "Node-90JJQWAV"
+  },
+  "5 SD|Bahasa Indonesia": {
+    "gradeSerial": "CMP-16YQSVLR",
+    "subjectSerial": "Node-00MCT8OG"
+  },
+  "5 SD|Bahasa Inggris": {
+    "gradeSerial": "CMP-16YQSVLR",
+    "subjectSerial": "Node-148SW42W"
+  },
+  "5 SD|PKN": {
+    "gradeSerial": "CMP-16YQSVLR",
+    "subjectSerial": "Node-GFQ79GPR"
+  },
+  "5 SD|IPAS IPS": {
+    "gradeSerial": "CMP-16YQSVLR",
+    "subjectSerial": "Node-EGELMGLR"
+  },
+  "5 SD|IPAS IPA": {
+    "gradeSerial": "CMP-16YQSVLR",
+    "subjectSerial": "Node-N38HFOCS"
+  },
+  "6 SD|Matematika": {
+    "gradeSerial": "CMP-3HECDAST",
+    "subjectSerial": "Node-5IQNAWAX"
+  },
+  "6 SD|IPAS IPS": {
+    "gradeSerial": "CMP-3HECDAST",
+    "subjectSerial": "Node-QLQWVDMI"
+  },
+  "6 SD|IPAS IPA": {
+    "gradeSerial": "CMP-3HECDAST",
+    "subjectSerial": "Node-VTAJUWMB"
+  },
+  "6 SD|Bahasa Indonesia": {
+    "gradeSerial": "CMP-3HECDAST",
+    "subjectSerial": "Node-0XSYDSVS"
+  },
+  "6 SD|Bahasa Inggris": {
+    "gradeSerial": "CMP-3HECDAST",
+    "subjectSerial": "Node-BTTJEY26"
+  },
+  "7 SMP|Matematika": {
+    "gradeSerial": "CMP-ACP6JBD3",
+    "subjectSerial": "Node-FYR0BZWL"
+  },
+  "7 SMP|IPA Bio": {
+    "gradeSerial": "CMP-ACP6JBD3",
+    "subjectSerial": "Node-SP1NO1UA"
+  },
+  "7 SMP|IPA Fis": {
+    "gradeSerial": "CMP-ACP6JBD3",
+    "subjectSerial": "Node-Q9D43XQ0"
+  },
+  "7 SMP|IPS Eko": {
+    "gradeSerial": "CMP-ACP6JBD3",
+    "subjectSerial": "Node-L9MDBH61"
+  },
+  "7 SMP|IPS Sos": {
+    "gradeSerial": "CMP-ACP6JBD3",
+    "subjectSerial": "Node-LS3ZY3TC"
+  },
+  "7 SMP|IPS Geo": {
+    "gradeSerial": "CMP-ACP6JBD3",
+    "subjectSerial": "Node-WEBOKIZI"
+  },
+  "7 SMP|IPS Sej": {
+    "gradeSerial": "CMP-ACP6JBD3",
+    "subjectSerial": "Node-V5PZME5K"
+  },
+  "7 SMP|Bahasa Indonesia": {
+    "gradeSerial": "CMP-ACP6JBD3",
+    "subjectSerial": "Node-ZHK1T70J"
+  },
+  "7 SMP|Bahasa Inggris": {
+    "gradeSerial": "CMP-ACP6JBD3",
+    "subjectSerial": "Node-07XS2EPV"
+  },
+  "7 SMP|PKN": {
+    "gradeSerial": "CMP-ACP6JBD3",
+    "subjectSerial": "Node-3XUJ3112"
+  },
+  "7 SMP|Informatika": {
+    "gradeSerial": "CMP-ACP6JBD3",
+    "subjectSerial": "Node-6HA6K2LS"
+  },
+  "8 SMP|Matematika": {
+    "gradeSerial": "CMP-EKUITRFU",
+    "subjectSerial": "Node-VE7XB8RN"
+  },
+  "8 SMP|Bahasa Indonesia": {
+    "gradeSerial": "CMP-EKUITRFU",
+    "subjectSerial": "Node-X9ACASGP"
+  },
+  "8 SMP|Bahasa Inggris": {
+    "gradeSerial": "CMP-EKUITRFU",
+    "subjectSerial": "Node-6VPO0MHG"
+  },
+  "8 SMP|IPA Bio": {
+    "gradeSerial": "CMP-EKUITRFU",
+    "subjectSerial": "Node-NPDK29TH"
+  },
+  "8 SMP|IPA Fis": {
+    "gradeSerial": "CMP-EKUITRFU",
+    "subjectSerial": "Node-80U1V4ES"
+  },
+  "8 SMP|IPS Eko": {
+    "gradeSerial": "CMP-EKUITRFU",
+    "subjectSerial": "Node-TCYFFDJ5"
+  },
+  "8 SMP|IPS Sos": {
+    "gradeSerial": "CMP-EKUITRFU",
+    "subjectSerial": "Node-AS22465K"
+  },
+  "8 SMP|IPS Geo": {
+    "gradeSerial": "CMP-EKUITRFU",
+    "subjectSerial": "Node-GSZ4EQ4F"
+  },
+  "8 SMP|IPS Sej": {
+    "gradeSerial": "CMP-EKUITRFU",
+    "subjectSerial": "Node-EL52W4CW"
+  },
+  "8 SMP|PKN": {
+    "gradeSerial": "CMP-EKUITRFU",
+    "subjectSerial": "Node-KCQLLRRS"
+  },
+  "8 SMP|Informatika": {
+    "gradeSerial": "CMP-EKUITRFU",
+    "subjectSerial": "Node-XIAS1VH6"
+  },
+  "9 SMP|Matematika": {
+    "gradeSerial": "CMP-KGUAFUXP",
+    "subjectSerial": "Node-RW2816MU"
+  },
+  "9 SMP|Bahasa Indonesia": {
+    "gradeSerial": "CMP-KGUAFUXP",
+    "subjectSerial": "Node-KP5LNQXZ"
+  },
+  "9 SMP|Bahasa Inggris": {
+    "gradeSerial": "CMP-KGUAFUXP",
+    "subjectSerial": "Node-JPKQ78F1"
+  },
+  "9 SMP|IPA Bio": {
+    "gradeSerial": "CMP-KGUAFUXP",
+    "subjectSerial": "Node-OWZ5OJ7K"
+  },
+  "9 SMP|IPA Fis": {
+    "gradeSerial": "CMP-KGUAFUXP",
+    "subjectSerial": "Node-PC0UD1FS"
+  },
+  "9 SMP|IPS Eko": {
+    "gradeSerial": "CMP-KGUAFUXP",
+    "subjectSerial": "Node-4JELUBVS"
+  },
+  "9 SMP|IPS Sos": {
+    "gradeSerial": "CMP-KGUAFUXP",
+    "subjectSerial": "Node-KDDR7OVM"
+  },
+  "9 SMP|IPS Geo": {
+    "gradeSerial": "CMP-KGUAFUXP",
+    "subjectSerial": "Node-X4CH0NOQ"
+  },
+  "9 SMP|IPS Sej": {
+    "gradeSerial": "CMP-KGUAFUXP",
+    "subjectSerial": "Node-YM5F7RHC"
+  },
+  "9 SMP|PKN": {
+    "gradeSerial": "#N/A",
+    "subjectSerial": "#N/A"
+  },
+  "9 SMP|Informatika": {
+    "gradeSerial": "#N/A",
+    "subjectSerial": "#N/A"
+  },
+  "10 SMA IPA|Matematika": {
+    "gradeSerial": "Node-5TQWRSAV",
+    "subjectSerial": "Node-3S3G02X1"
+  },
+  "10 SMA IPS|Matematika": {
+    "gradeSerial": "Node-5TQWRSAV",
+    "subjectSerial": "Node-3S3G02X1"
+  },
+  "10 SMA IPA|Fisika": {
+    "gradeSerial": "Node-5TQWRSAV",
+    "subjectSerial": "Node-5N74IWMX"
+  },
+  "10 SMA IPA|Kimia": {
+    "gradeSerial": "Node-5TQWRSAV",
+    "subjectSerial": "Node-1S19BL3Z"
+  },
+  "10 SMA IPA|Biologi": {
+    "gradeSerial": "Node-5TQWRSAV",
+    "subjectSerial": "Node-Q6SZAH8U"
+  },
+  "10 SMA IPA IPS|Bahasa Indonesia": {
+    "gradeSerial": "Node-5TQWRSAV",
+    "subjectSerial": "Node-WX4FHQ3V"
+  },
+  "10 SMA IPA IPS|Bahasa Inggris": {
+    "gradeSerial": "Node-5TQWRSAV",
+    "subjectSerial": "Node-BUS53NQ4"
+  },
+  "10 SMA IPS|Ekonomi": {
+    "gradeSerial": "Node-5TQWRSAV",
+    "subjectSerial": "Node-PIK39PWA"
+  },
+  "10 SMA IPS|Geografi": {
+    "gradeSerial": "Node-5TQWRSAV",
+    "subjectSerial": "Node-BK9JAOGJ"
+  },
+  "10 SMA IPS|Sosiologi": {
+    "gradeSerial": "Node-5TQWRSAV",
+    "subjectSerial": "Node-GG3F5CZT"
+  },
+  "10 SMA IPS|Sejarah": {
+    "gradeSerial": "Node-5TQWRSAV",
+    "subjectSerial": "Node-1BAKXDZJ"
+  },
+  "10 SMA IPA|PKN": {
+    "gradeSerial": "Node-5TQWRSAV",
+    "subjectSerial": "Node-DJQDSZ6R"
+  },
+  "10 SMA IPA|Informatika": {
+    "gradeSerial": "Node-5TQWRSAV",
+    "subjectSerial": "Node-4D1Y0ZFF"
+  },
+  "11 SMA IPA|Matematika": {
+    "gradeSerial": "Node-G9WNS47V",
+    "subjectSerial": "Node-SEY4OCA0"
+  },
+  "11 SMA IPS|Matematika": {
+    "gradeSerial": "Node-G9WNS47V",
+    "subjectSerial": "Node-SEY4OCA0"
+  },
+  "11 SMA IPA|Fisika": {
+    "gradeSerial": "Node-G9WNS47V",
+    "subjectSerial": "Node-OHJE9NE9"
+  },
+  "11 SMA IPA|Kimia": {
+    "gradeSerial": "Node-G9WNS47V",
+    "subjectSerial": "Node-AT9CZ9J3"
+  },
+  "11 SMA IPA|Biologi": {
+    "gradeSerial": "Node-G9WNS47V",
+    "subjectSerial": "Node-VK5DWST7"
+  },
+  "11 SMA IPA IPS|Bahasa Indonesia": {
+    "gradeSerial": "Node-G9WNS47V",
+    "subjectSerial": "Node-EHDLY92L"
+  },
+  "11 SMA IPA IPS|Bahasa Inggris": {
+    "gradeSerial": "Node-G9WNS47V",
+    "subjectSerial": "Node-CM71APNV"
+  },
+  "11 SMA IPS|Ekonomi": {
+    "gradeSerial": "Node-G9WNS47V",
+    "subjectSerial": "Node-Q06MEJ81"
+  },
+  "11 SMA IPS|Geografi": {
+    "gradeSerial": "Node-G9WNS47V",
+    "subjectSerial": "Node-LQUS2KJQ"
+  },
+  "11 SMA IPS|Sosiologi": {
+    "gradeSerial": "Node-G9WNS47V",
+    "subjectSerial": "Node-PQ8Q5BFU"
+  },
+  "11 SMA IPS|Sejarah": {
+    "gradeSerial": "Node-G9WNS47V",
+    "subjectSerial": "Node-BA4YMZ5U"
+  },
+  "11 SMA IPA|PKN": {
+    "gradeSerial": "Node-G9WNS47V",
+    "subjectSerial": "Node-031D371U"
+  },
+  "11 SMA IPA|Informatika": {
+    "gradeSerial": "Node-G9WNS47V",
+    "subjectSerial": "Node-SN85BNCW"
+  },
+  "12 SMA IPA|Matematika": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-ZYV3T17S"
+  },
+  "12 SMA IPS|Matematika": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-ZYV3T17S"
+  },
+  "12 SMA IPA|Fisika": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-IIGQNSVE"
+  },
+  "12 SMA IPA|Kimia": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-R8OEV8IJ"
+  },
+  "12 SMA IPA|Biologi": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-Z145AJB0"
+  },
+  "12 SMA IPA IPS|Bahasa Indonesia": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-P4A59D7H"
+  },
+  "12 SMA IPA IPS|Bahasa Inggris": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-3D2XSX5H"
+  },
+  "12 SMA IPS|Ekonomi": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-GPGUC224"
+  },
+  "12 SMA IPS|Geografi": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-4RS8U1AH"
+  },
+  "12 SMA IPS|Sosiologi": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-3IFT0E7H"
+  },
+  "12 SMA IPS|Sejarah": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-VXQ2RVGN"
+  },
+  "SBMPTN IPA IPS|Pemahaman Bacaan": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-AWTEHPTP"
+  },
+  "SBMPTN IPA IPS|Penalaran Umum": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-LD1Z5SP7"
+  },
+  "SBMPTN IPA IPS|Pengetahuan Kuantitatif": {
+    "gradeSerial": "Node-CV03CJIC,Node-V4K4V1DM,Node-OYVT1OP0",
+    "subjectSerial": "Node-D6K6CCDA"
+  }
+}
