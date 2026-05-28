@@ -220,6 +220,88 @@ export default function App() {
   }, []);
 
   useEffect(() => {
+    const unsubscribe = onSnapshot(
+      collection(db, 'studentProfiles'),
+      (snapshot) => {
+        const cloudStudents = {};
+        snapshot.docs.forEach(profileDoc => {
+          const student = profileDoc.data();
+          if (student?.email) {
+            const eligibleStudent = MOCK_STUDENTS[student.email];
+            cloudStudents[student.email] = {
+              ...student,
+              coins: Math.max(student.coins ?? 0, eligibleStudent?.coins ?? 0)
+            };
+          }
+        });
+
+        if (Object.keys(cloudStudents).length === 0) return;
+
+        setOnboardedStudents(prev => ({
+          ...prev,
+          ...cloudStudents
+        }));
+
+        setCurrentUser(prev => {
+          if (!prev?.email || !cloudStudents[prev.email]) return prev;
+          return {
+            ...prev,
+            ...cloudStudents[prev.email]
+          };
+        });
+      },
+      (error) => {
+        console.error('Firestore studentProfiles sync failed:', error);
+      }
+    );
+
+    return () => unsubscribe();
+  }, []);
+
+  useEffect(() => {
+    const sessionsQuery = query(collection(db, 'sessions'), orderBy('timestamp', 'desc'));
+    const unsubscribe = onSnapshot(
+      sessionsQuery,
+      (snapshot) => {
+        const cloudSessions = snapshot.docs.map(sessionDoc => ({
+          id: sessionDoc.id,
+          ...sessionDoc.data()
+        }));
+        if (cloudSessions.length === 0) return;
+        setSessions(cloudSessions);
+        localStorage.setItem('so_sessions', JSON.stringify(cloudSessions));
+      },
+      (error) => {
+        console.error('Firestore sessions sync failed:', error);
+      }
+    );
+
+    return () => unsubscribe();
+  }, []);
+
+  useEffect(() => {
+    const unsubscribe = onSnapshot(
+      collection(db, 'teachers'),
+      (snapshot) => {
+        if (snapshot.empty) return;
+        const cloudTeachersById = Object.fromEntries(
+          snapshot.docs.map(teacherDoc => [teacherDoc.id, teacherDoc.data()])
+        );
+        setTeachersData(prev => prev.map(teacher => (
+          cloudTeachersById[teacher.id]
+            ? { ...teacher, ...cloudTeachersById[teacher.id], id: teacher.id }
+            : teacher
+        )));
+      },
+      (error) => {
+        console.error('Firestore teachers sync failed:', error);
+      }
+    );
+
+    return () => unsubscribe();
+  }, []);
+
+  useEffect(() => {
     const hydratedRequests = tutorRequests.map(req => {
       if (req.sessionLink || !req.teacherFix) return req;
       const matchedTeacher = teachersData.find(teacher => teacher.name.trim().toLowerCase() === req.teacherFix.trim().toLowerCase());
@@ -393,6 +475,10 @@ export default function App() {
     setActiveRole('student');
     setShowLogin(false);
     setStudentSection('landing');
+    setDoc(doc(db, 'studentProfiles', normalizedEmail), studentRecord).catch(error => {
+      console.error('Failed to save student profile to Firestore:', error);
+      showToast('Profil tersimpan lokal, tapi belum tersinkron ke device lain.', 'warning');
+    });
     showToast(`Onboarding selesai. Selamat datang, ${studentRecord.name}!`, 'success');
   };
 
@@ -504,6 +590,10 @@ export default function App() {
       ...prev,
       [updated.email]: updated
     }));
+    setDoc(doc(db, 'studentProfiles', updated.email), updated).catch(error => {
+      console.error('Failed to save student coins to Firestore:', error);
+      showToast('Koin sudah berubah di browser ini, tapi belum tersinkron ke device lain.', 'warning');
+    });
     setShowTopup(false);
     showToast(`Top Up Berhasil! +${coinsToAdd} Koin ditambahkan ke akunmu.`, 'success');
   };
@@ -523,6 +613,9 @@ export default function App() {
         ...students,
         [updatedUser.email]: updatedUser
       }));
+      setDoc(doc(db, 'studentProfiles', updatedUser.email), updatedUser).catch(error => {
+        console.error('Failed to save deducted student coins to Firestore:', error);
+      });
     }
 
     const newSession = {
@@ -576,6 +669,10 @@ export default function App() {
     });
 
     setSessions(prev => [newSession, ...prev]);
+    setDoc(doc(db, 'sessions', newSession.id), newSession).catch(error => {
+      console.error('Failed to save session to Firestore:', error);
+      showToast('Sesi tersimpan lokal, tapi belum tersinkron ke device lain.', 'warning');
+    });
     handleUpdateTutorRequest(req.id, {
       opsStatus: 'MT Tersedia',
       teacherFix: teacher.name,
@@ -627,6 +724,10 @@ export default function App() {
       return sess;
     });
     setSessions(updated);
+    updateDoc(doc(db, 'sessions', sessionId), { status }).catch(error => {
+      console.error('Failed to update session status in Firestore:', error);
+      showToast('Status sesi berubah lokal, tapi belum tersinkron ke device lain.', 'warning');
+    });
 
     // If cancelled, refund student and clear slot in teacher schedule
     if (status === 'Cancelled') {
@@ -643,6 +744,9 @@ export default function App() {
             ...students,
             [updatedUser.email]: updatedUser
           }));
+          setDoc(doc(db, 'studentProfiles', updatedUser.email), updatedUser).catch(error => {
+            console.error('Failed to refund student coins in Firestore:', error);
+          });
           showToast("Sesi dibatalkan. 10 Koin dikembalikan ke siswa.", "info");
         }
 
@@ -1048,6 +1152,10 @@ export default function App() {
     if (currentTeacher && currentTeacher.id === teacherId) {
       setCurrentTeacher(updatedTeacher);
     }
+    setDoc(doc(db, 'teachers', teacherId), updatedTeacher).catch(error => {
+      console.error('Failed to save teacher data to Firestore:', error);
+      showToast('Data MT tersimpan lokal, tapi belum tersinkron ke device lain.', 'warning');
+    });
   };
 
   // Helper render initials

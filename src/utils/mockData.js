@@ -66,11 +66,23 @@ export const SUBJECTS = [
 
 export { validationMap };
 
-export function getSlotsForDay(day) {
-  if (day === 'Sabtu') {
-    return ["10:00", "11:00", "12:30", "13:30", "14:30", "15:30"];
+const generateHalfHourSlots = (start = "09:00", end = "21:00") => {
+  const [startHour, startMinute] = start.split(":").map(Number);
+  const [endHour, endMinute] = end.split(":").map(Number);
+  const slots = [];
+  const cursor = new Date(2000, 0, 1, startHour, startMinute);
+  const endTime = new Date(2000, 0, 1, endHour, endMinute);
+
+  while (cursor <= endTime) {
+    slots.push(`${String(cursor.getHours()).padStart(2, "0")}:${String(cursor.getMinutes()).padStart(2, "0")}`);
+    cursor.setMinutes(cursor.getMinutes() + 30);
   }
-  return ["14:00", "15:00", "16:00", "17:00", "18:45", "19:30", "20:00", "20:30"];
+
+  return slots;
+};
+
+export function getSlotsForDay(day) {
+  return generateHalfHourSlots();
 }
 
 const SUBJECT_MAP = {
@@ -98,17 +110,7 @@ export const TEACHERS = parsedTeachers.map(t => {
 
 // Day-specific time slots array generator for student booking wizard
 export function generateTimeSlotsArray(dateStr) {
-  if (!dateStr) return ["14:00", "15:00", "16:00", "17:00", "18:45", "19:30", "20:00", "20:30"];
-  const dateObj = new Date(dateStr);
-  const dayNames = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
-  const dayName = dayNames[dateObj.getDay()];
-  if (dayName === 'Sabtu') {
-    return ["10:00", "11:00", "12:30", "13:30", "14:30", "15:30"];
-  }
-  if (dayName === 'Minggu') {
-    return [];
-  }
-  return ["14:00", "15:00", "16:00", "17:00", "18:45", "19:30", "20:00", "20:30"];
+  return generateHalfHourSlots();
 }
 
 export function getFormattedDateString(dateStr) {
