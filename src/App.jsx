@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import confetti from 'canvas-confetti';
 import { Coins, LogOut, Sliders, CheckCircle } from 'lucide-react';
+import { collection, doc, onSnapshot, orderBy, query, setDoc, updateDoc } from 'firebase/firestore';
 import LoginModal from './components/LoginModal';
 import TopUpModal from './components/TopUpModal';
 import BookingWizard from './components/BookingWizard';
@@ -9,6 +10,7 @@ import ConfirmedScreen from './components/ConfirmedScreen';
 import TeacherDashboard from './components/TeacherDashboard';
 import AdminDashboard from './components/AdminDashboard';
 import FAQSection from './components/FAQSection';
+import { db } from './firebase';
 
 import { 
   MOCK_STUDENTS,
@@ -108,6 +110,7 @@ export default function App() {
   });
   const [adminLoginForm, setAdminLoginForm] = useState({ username: '', password: '' });
   const [adminLoginError, setAdminLoginError] = useState('');
+  const firestoreWarningShown = useRef(false);
 
   // Ruangguru Revamp States
   const [activeTab, setActiveTab] = useState('tersedia');
@@ -120,7 +123,6 @@ export default function App() {
     const params = new URLSearchParams(window.location.search);
     if ((window.location.pathname === '/admin' || params.get('view') === 'admin') && isAdminAuthenticated) {
       setActiveRole('admin');
-      setTutorRequests(JSON.parse(localStorage.getItem('so_tutor_requests')) || []);
     }
   }, [isAdminAuthenticated]);
 
@@ -194,6 +196,30 @@ export default function App() {
   }, [sessions]);
 
   useEffect(() => {
+    const requestsQuery = query(collection(db, 'tutorRequests'), orderBy('submittedAt', 'desc'));
+    const unsubscribe = onSnapshot(
+      requestsQuery,
+      (snapshot) => {
+        const cloudRequests = snapshot.docs.map(requestDoc => ({
+          id: requestDoc.id,
+          ...requestDoc.data()
+        }));
+        setTutorRequests(cloudRequests);
+        localStorage.setItem('so_tutor_requests', JSON.stringify(cloudRequests));
+      },
+      (error) => {
+        console.error('Firestore tutorRequests sync failed:', error);
+        if (!firestoreWarningShown.current) {
+          firestoreWarningShown.current = true;
+          showToast('Firestore belum bisa diakses. Data sementara masih tersimpan di browser ini.', 'warning');
+        }
+      }
+    );
+
+    return () => unsubscribe();
+  }, []);
+
+  useEffect(() => {
     const hydratedRequests = tutorRequests.map(req => {
       if (req.sessionLink || !req.teacherFix) return req;
       const matchedTeacher = teachersData.find(teacher => teacher.name.trim().toLowerCase() === req.teacherFix.trim().toLowerCase());
@@ -208,36 +234,6 @@ export default function App() {
     }
     localStorage.setItem('so_tutor_requests', JSON.stringify(hydratedRequests));
   }, [tutorRequests, teachersData]);
-
-  useEffect(() => {
-    const shouldSyncRequests = () => (
-      window.location.pathname === '/admin' ||
-      new URLSearchParams(window.location.search).get('view') === 'admin'
-    );
-
-    const syncTutorRequestsFromStorage = () => {
-      if (!shouldSyncRequests()) return;
-      const storedRequests = JSON.parse(localStorage.getItem('so_tutor_requests')) || [];
-      setTutorRequests(prev => {
-        if (JSON.stringify(prev) === JSON.stringify(storedRequests)) return prev;
-        return storedRequests;
-      });
-    };
-
-    const handleStorage = (event) => {
-      if (event.key === 'so_tutor_requests') syncTutorRequestsFromStorage();
-    };
-
-    window.addEventListener('storage', handleStorage);
-    window.addEventListener('focus', syncTutorRequestsFromStorage);
-    const intervalId = window.setInterval(syncTutorRequestsFromStorage, 5000);
-
-    return () => {
-      window.removeEventListener('storage', handleStorage);
-      window.removeEventListener('focus', syncTutorRequestsFromStorage);
-      window.clearInterval(intervalId);
-    };
-  }, []);
 
   useEffect(() => {
     localStorage.removeItem('so_active_request');
@@ -467,20 +463,32 @@ export default function App() {
       localStorage.setItem('so_tutor_requests', JSON.stringify(nextRequests));
       return nextRequests;
     });
+    setDoc(doc(db, 'tutorRequests', reqId), crmRequest).catch(error => {
+      console.error('Failed to save tutor request to Firestore:', error);
+      showToast('Request tersimpan di browser ini, tapi belum tersinkron ke admin. Cek Firestore rules dulu ya.', 'warning');
+    });
     setActiveRequest(null);
     setStudentSection('landing');
     setShowRequestSuccess(true);
   };
 
   const handleUpdateTutorRequest = (requestId, updates) => {
+    const nextUpdates = {
+      ...updates,
+      lastUpdate: new Date().toISOString()
+    };
     setTutorRequests(prev => {
       const nextRequests = prev.map(req => (
         req.id === requestId
-          ? { ...req, ...updates, lastUpdate: new Date().toISOString() }
+          ? { ...req, ...nextUpdates }
           : req
       ));
       localStorage.setItem('so_tutor_requests', JSON.stringify(nextRequests));
       return nextRequests;
+    });
+    updateDoc(doc(db, 'tutorRequests', requestId), nextUpdates).catch(error => {
+      console.error('Failed to update tutor request in Firestore:', error);
+      showToast('Update tersimpan lokal, tapi belum tersinkron ke device lain.', 'warning');
     });
   };
 
