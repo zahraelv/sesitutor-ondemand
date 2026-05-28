@@ -22,7 +22,6 @@ export default function BookingWizard({
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedSubject, setSelectedSubject] = useState(initialSubject || '');
   const [teacherRequest, setTeacherRequest] = useState('');
-  const [notes, setNotes] = useState('');
 
   const [dates, setDates] = useState([]);
   const [selectedDate, setSelectedDate] = useState(initialDate || '');
@@ -115,7 +114,6 @@ export default function BookingWizard({
       subjectId: selectedSubject,
       subjectName: subjects.find(s => s.id === selectedSubject)?.name || selectedSubject,
       teacherRequest,
-      notes,
       date: selectedDate,
       timeSlot: selectedTimeSlot,
       estWaitTime: parseInt(waitTime.replace(/\D/g, '')) || 15
@@ -275,20 +273,11 @@ export default function BookingWizard({
             <div className="form-field">
               <label>Request Master Teacher (Opsional)</label>
               <select value={teacherRequest} onChange={(e) => setTeacherRequest(e.target.value)}>
-                <option value="">Bebas (Sistem Matching Otomatis)</option>
+                <option value="">Bebas (akan dicarikan oleh tim)</option>
                 {teachers.map(t => (
                   <option key={t.id} value={t.name}>{t.name} ({t.desc.split("Spesialis ")[1] || t.desc})</option>
                 ))}
               </select>
-            </div>
-
-            <div className="form-field">
-              <label>Catatan Tambahan untuk Tutor</label>
-              <textarea 
-                value={notes} 
-                onChange={(e) => setNotes(e.target.value)} 
-                placeholder="Tuliskan materi spesifik yang ingin dibahas (contoh: Belajar rumus integral substitusi, persiapan UTBK Bab 3)"
-              />
             </div>
 
             <div className="wizard-footer">

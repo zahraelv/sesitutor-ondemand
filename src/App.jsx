@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import confetti from 'canvas-confetti';
-import { Zap, Timer, Coins, UserCheck, ArrowRight, RefreshCw, LogOut, CalendarCheck, Clock, Sliders, CheckCircle } from 'lucide-react';
+import { Coins, LogOut, Sliders, CheckCircle } from 'lucide-react';
 import LoginModal from './components/LoginModal';
 import TopUpModal from './components/TopUpModal';
 import BookingWizard from './components/BookingWizard';
@@ -11,7 +11,7 @@ import AdminDashboard from './components/AdminDashboard';
 import FAQSection from './components/FAQSection';
 
 import { 
-  MOCK_STUDENTS, 
+  MOCK_STUDENTS,
   SUBJECTS, 
   TEACHERS, 
   getFormattedDateString, 
@@ -24,7 +24,41 @@ export default function App() {
   // Global States
   const [activeRole, setActiveRole] = useState('student');
   const [currentUser, setCurrentUser] = useState(() => {
-    return JSON.parse(localStorage.getItem('so_student')) || null;
+    try {
+      const savedUser = JSON.parse(localStorage.getItem('so_student')) || null;
+      const savedStudents = JSON.parse(localStorage.getItem('so_onboarded_students')) || {};
+      if (!savedUser?.email) return null;
+      const savedStudent = savedStudents[savedUser.email];
+      const eligibleStudent = MOCK_STUDENTS[savedUser.email];
+      if (!savedStudent) return null;
+      return {
+        ...savedStudent,
+        coins: Math.max(savedStudent.coins ?? 0, eligibleStudent?.coins ?? 0)
+      };
+    } catch (e) {
+      console.error(e);
+      return null;
+    }
+  });
+  const [onboardedStudents, setOnboardedStudents] = useState(() => {
+    try {
+      const savedStudents = JSON.parse(localStorage.getItem('so_onboarded_students')) || {};
+      return Object.fromEntries(
+        Object.entries(savedStudents).map(([email, student]) => {
+          const eligibleStudent = MOCK_STUDENTS[email];
+          return [
+            email,
+            {
+              ...student,
+              coins: Math.max(student.coins ?? 0, eligibleStudent?.coins ?? 0)
+            }
+          ];
+        })
+      );
+    } catch (e) {
+      console.error(e);
+      return {};
+    }
   });
 
   // Unified dynamic Master Teachers state loaded from localStorage or default TEACHERS
@@ -56,15 +90,24 @@ export default function App() {
   const [sessions, setSessions] = useState(() => {
     return JSON.parse(localStorage.getItem('so_sessions')) || [];
   });
+  const [tutorRequests, setTutorRequests] = useState(() => {
+    return JSON.parse(localStorage.getItem('so_tutor_requests')) || [];
+  });
   const [activeRequest, setActiveRequest] = useState(() => {
-    return JSON.parse(localStorage.getItem('so_active_request')) || null;
+    return null;
   });
 
   // UI Control States
   const [studentSection, setStudentSection] = useState('landing');
   const [showLogin, setShowLogin] = useState(false);
   const [showTopup, setShowTopup] = useState(false);
+  const [showRequestSuccess, setShowRequestSuccess] = useState(false);
   const [confirmedSession, setConfirmedSession] = useState(null);
+  const [isAdminAuthenticated, setIsAdminAuthenticated] = useState(() => {
+    return localStorage.getItem('so_admin_auth') === 'true';
+  });
+  const [adminLoginForm, setAdminLoginForm] = useState({ username: '', password: '' });
+  const [adminLoginError, setAdminLoginError] = useState('');
 
   // Ruangguru Revamp States
   const [activeTab, setActiveTab] = useState('tersedia');
@@ -72,6 +115,14 @@ export default function App() {
   const [dashboardDates, setDashboardDates] = useState([]);
   const [wizardSubject, setWizardSubject] = useState('');
   const [wizardDate, setWizardDate] = useState('');
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if ((window.location.pathname === '/admin' || params.get('view') === 'admin') && isAdminAuthenticated) {
+      setActiveRole('admin');
+      setTutorRequests(JSON.parse(localStorage.getItem('so_tutor_requests')) || []);
+    }
+  }, [isAdminAuthenticated]);
 
   // Generate dates for the dashboard carousel
   useEffect(() => {
@@ -111,6 +162,26 @@ export default function App() {
   }, [currentUser]);
 
   useEffect(() => {
+    localStorage.setItem('so_onboarded_students', JSON.stringify(onboardedStudents));
+  }, [onboardedStudents]);
+
+  useEffect(() => {
+    if (!currentUser?.email) return;
+    const eligibleStudent = MOCK_STUDENTS[currentUser.email];
+    if (!eligibleStudent || (currentUser.coins ?? 0) >= (eligibleStudent.coins ?? 0)) return;
+
+    const updatedUser = {
+      ...currentUser,
+      coins: eligibleStudent.coins
+    };
+    setCurrentUser(updatedUser);
+    setOnboardedStudents(prev => ({
+      ...prev,
+      [updatedUser.email]: updatedUser
+    }));
+  }, [currentUser]);
+
+  useEffect(() => {
     localStorage.setItem('so_teacher', JSON.stringify(currentTeacher));
   }, [currentTeacher]);
 
@@ -123,12 +194,53 @@ export default function App() {
   }, [sessions]);
 
   useEffect(() => {
-    if (activeRequest) {
-      localStorage.setItem('so_active_request', JSON.stringify(activeRequest));
-      setStudentSection('matching');
-    } else {
-      localStorage.removeItem('so_active_request');
+    const hydratedRequests = tutorRequests.map(req => {
+      if (req.sessionLink || !req.teacherFix) return req;
+      const matchedTeacher = teachersData.find(teacher => teacher.name.trim().toLowerCase() === req.teacherFix.trim().toLowerCase());
+      return {
+        ...req,
+        sessionLink: matchedTeacher?.gmeet || ''
+      };
+    });
+    if (JSON.stringify(hydratedRequests) !== JSON.stringify(tutorRequests)) {
+      setTutorRequests(hydratedRequests);
+      return;
     }
+    localStorage.setItem('so_tutor_requests', JSON.stringify(hydratedRequests));
+  }, [tutorRequests, teachersData]);
+
+  useEffect(() => {
+    const shouldSyncRequests = () => (
+      window.location.pathname === '/admin' ||
+      new URLSearchParams(window.location.search).get('view') === 'admin'
+    );
+
+    const syncTutorRequestsFromStorage = () => {
+      if (!shouldSyncRequests()) return;
+      const storedRequests = JSON.parse(localStorage.getItem('so_tutor_requests')) || [];
+      setTutorRequests(prev => {
+        if (JSON.stringify(prev) === JSON.stringify(storedRequests)) return prev;
+        return storedRequests;
+      });
+    };
+
+    const handleStorage = (event) => {
+      if (event.key === 'so_tutor_requests') syncTutorRequestsFromStorage();
+    };
+
+    window.addEventListener('storage', handleStorage);
+    window.addEventListener('focus', syncTutorRequestsFromStorage);
+    const intervalId = window.setInterval(syncTutorRequestsFromStorage, 5000);
+
+    return () => {
+      window.removeEventListener('storage', handleStorage);
+      window.removeEventListener('focus', syncTutorRequestsFromStorage);
+      window.clearInterval(intervalId);
+    };
+  }, []);
+
+  useEffect(() => {
+    localStorage.removeItem('so_active_request');
   }, [activeRequest]);
 
   // Translate 24h standard slot like "13:00" to slot interval label "13:00-13:30"
@@ -192,6 +304,7 @@ export default function App() {
         } else {
           // No available teacher found!
           showToast("Maaf, tidak ada Master Teacher yang tersedia di slot tersebut (penuh / tidak online).", "danger");
+          handleUpdateTutorRequest(activeRequest.id, { opsStatus: 'Sesi Tidak Tersedia' });
           setActiveRequest(null);
           setStudentSection('booking');
         }
@@ -250,8 +363,50 @@ export default function App() {
     setStudentSection('landing');
   };
 
+  const handleAdminLogin = (e) => {
+    e.preventDefault();
+    const username = adminLoginForm.username.trim().toLowerCase();
+    const password = adminLoginForm.password;
+
+    if (username === 'admin' && password === '1234') {
+      localStorage.setItem('so_admin_auth', 'true');
+      setIsAdminAuthenticated(true);
+      setActiveRole('admin');
+      setAdminLoginError('');
+      setTutorRequests(JSON.parse(localStorage.getItem('so_tutor_requests')) || []);
+      return;
+    }
+
+    setAdminLoginError('Username atau password admin belum sesuai.');
+  };
+
+  const handleStudentOnboarding = (student) => {
+    const normalizedEmail = student.email.trim().toLowerCase();
+    const studentRecord = {
+      ...student,
+      role: 'student',
+      email: normalizedEmail,
+      coins: student.coins ?? 0
+    };
+
+    setOnboardedStudents(prev => ({
+      ...prev,
+      [normalizedEmail]: studentRecord
+    }));
+    setCurrentUser(studentRecord);
+    setActiveRole('student');
+    setShowLogin(false);
+    setStudentSection('landing');
+    showToast(`Onboarding selesai. Selamat datang, ${studentRecord.name}!`, 'success');
+  };
+
   const handleLogout = () => {
     if (activeRole !== 'student') {
+      if (activeRole === 'admin') {
+        localStorage.removeItem('so_admin_auth');
+        setIsAdminAuthenticated(false);
+        setAdminLoginForm({ username: '', password: '' });
+      }
       setActiveRole('student');
       setCurrentUser(null);
       showToast('Kamu telah keluar dari mode khusus.', 'info');
@@ -282,14 +437,51 @@ export default function App() {
     }
 
     const reqId = "REQ-" + Math.floor(10000 + Math.random() * 90000);
-    const requestObject = {
-      ...bookingData,
+    const crmRequest = {
       id: reqId,
-      status: 'Waiting Teacher',
-      timestamp: new Date().getTime()
+      studentName: bookingData.name,
+      studentEmail: bookingData.email,
+      class: bookingData.class,
+      package: bookingData.package,
+      whatsapp: currentUser.whatsapp || '',
+      submittedAt: new Date().toISOString(),
+      subjectName: bookingData.subjectName,
+      requestedDate: bookingData.date,
+      requestedTime: bookingData.timeSlot,
+      finalSameAsRequest: false,
+      finalDate: '',
+      finalTime: '',
+      teacherRequest: bookingData.teacherRequest,
+      teacherFix: '',
+      sessionLink: '',
+      opsStatus: 'Request Masuk',
+      picSA: '',
+      saNotes: '',
+      opsNotes: '',
+      lastUpdate: new Date().toISOString(),
+      nextFollowUp: ''
     };
 
-    setActiveRequest(requestObject);
+    setTutorRequests(prev => {
+      const nextRequests = [crmRequest, ...prev];
+      localStorage.setItem('so_tutor_requests', JSON.stringify(nextRequests));
+      return nextRequests;
+    });
+    setActiveRequest(null);
+    setStudentSection('landing');
+    setShowRequestSuccess(true);
+  };
+
+  const handleUpdateTutorRequest = (requestId, updates) => {
+    setTutorRequests(prev => {
+      const nextRequests = prev.map(req => (
+        req.id === requestId
+          ? { ...req, ...updates, lastUpdate: new Date().toISOString() }
+          : req
+      ));
+      localStorage.setItem('so_tutor_requests', JSON.stringify(nextRequests));
+      return nextRequests;
+    });
   };
 
   // Coin Purchase
@@ -300,6 +492,10 @@ export default function App() {
       coins: currentUser.coins + coinsToAdd
     };
     setCurrentUser(updated);
+    setOnboardedStudents(prev => ({
+      ...prev,
+      [updated.email]: updated
+    }));
     setShowTopup(false);
     showToast(`Top Up Berhasil! +${coinsToAdd} Koin ditambahkan ke akunmu.`, 'success');
   };
@@ -309,13 +505,17 @@ export default function App() {
     if (autoAcceptTimer.current) clearTimeout(autoAcceptTimer.current);
 
     // Deduct coins from student
-    setCurrentUser(prev => {
-      if (!prev) return null;
-      return {
-        ...prev,
-        coins: Math.max(0, prev.coins - 10)
+    if (currentUser) {
+      const updatedUser = {
+        ...currentUser,
+        coins: Math.max(0, currentUser.coins - 10)
       };
-    });
+      setCurrentUser(updatedUser);
+      setOnboardedStudents(students => ({
+        ...students,
+        [updatedUser.email]: updatedUser
+      }));
+    }
 
     const newSession = {
       id: "SES-" + Math.floor(100000 + Math.random() * 900000),
@@ -368,6 +568,11 @@ export default function App() {
     });
 
     setSessions(prev => [newSession, ...prev]);
+    handleUpdateTutorRequest(req.id, {
+      opsStatus: 'MT Tersedia',
+      teacherFix: teacher.name,
+      sessionLink: teacher.gmeet || ''
+    });
     setActiveRequest(null);
     setConfirmedSession(newSession);
     setStudentSection('confirmed');
@@ -384,6 +589,9 @@ export default function App() {
   // Cancel Matching
   const handleCancelMatching = () => {
     if (autoAcceptTimer.current) clearTimeout(autoAcceptTimer.current);
+    if (activeRequest?.id) {
+      handleUpdateTutorRequest(activeRequest.id, { opsStatus: 'Dibatalkan Siswa' });
+    }
     setActiveRequest(null);
     setStudentSection('landing');
     showToast("Request booking dibatalkan.", "info");
@@ -392,6 +600,9 @@ export default function App() {
   const handleRejectRequest = () => {
     if (autoAcceptTimer.current) clearTimeout(autoAcceptTimer.current);
     showToast("Request ditolak. Sistem akan mencoba mencarikan tutor lain.", "info");
+    if (activeRequest?.id) {
+      handleUpdateTutorRequest(activeRequest.id, { opsStatus: 'Dibatalkan Siswa' });
+    }
     setActiveRequest(null);
     setTimeout(() => {
       showToast("Maaf, tidak ada Master Teacher yang tersedia di slot tersebut.", "danger");
@@ -415,13 +626,15 @@ export default function App() {
       if (cancelledSess) {
         // Refund koin
         if (currentUser && cancelledSess.studentEmail === currentUser.email) {
-          setCurrentUser(prev => {
-            if (!prev) return null;
-            return {
-              ...prev,
-              coins: prev.coins + 10
-            };
-          });
+          const updatedUser = {
+            ...currentUser,
+            coins: currentUser.coins + 10
+          };
+          setCurrentUser(updatedUser);
+          setOnboardedStudents(students => ({
+            ...students,
+            [updatedUser.email]: updatedUser
+          }));
           showToast("Sesi dibatalkan. 10 Koin dikembalikan ke siswa.", "info");
         }
 
@@ -699,6 +912,110 @@ export default function App() {
     showToast("File CSV Berhasil Diekspor!", "success");
   };
 
+  const handleExportTutorRequestsCSV = () => {
+    const headers = [
+      "email_guru",
+      "tanggal",
+      "jam",
+      "durasi",
+      "link kelas",
+      "kapasitas",
+      "catatan",
+      "class",
+      "subject",
+      "topik",
+      "type-product",
+      "consultation_type"
+    ];
+
+    const escapeCsv = (val) => {
+      if (val === null || val === undefined) return "";
+      const str = String(val);
+      if (str.includes(",") || str.includes('"') || str.includes("\n")) {
+        return `"${str.replace(/"/g, '""')}"`;
+      }
+      return str;
+    };
+
+    const normalizeTime = (time) => {
+      if (!time) return "";
+      return String(time).replace(".", ":");
+    };
+
+    const normalizeDateForCsv = (dateValue) => {
+      if (!dateValue) return "";
+      const value = String(dateValue).trim();
+      if (/^\d{4}-\d{2}-\d{2}$/.test(value)) return value;
+
+      const slashMatch = value.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+      if (slashMatch) {
+        const [, day, month, year] = slashMatch;
+        return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
+      }
+
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return value;
+      return formatDate(date);
+    };
+
+    const excelSafeDate = (dateValue) => {
+      const normalizedDate = normalizeDateForCsv(dateValue);
+      return normalizedDate ? `="${normalizedDate}"` : "";
+    };
+
+    const readyRequests = tutorRequests.filter(req => {
+      const finalDate = req.finalDate || (req.finalSameAsRequest ? req.requestedDate : "");
+      const finalTime = req.finalTime || (req.finalSameAsRequest ? req.requestedTime : "");
+      return req.teacherFix && finalDate && finalTime;
+    });
+
+    if (readyRequests.length === 0) {
+      showToast("Belum ada request dengan MT Fix dan Jadwal Final yang siap diekspor.", "warning");
+      return;
+    }
+
+    const csvRows = [headers.join(",")];
+
+    readyRequests.forEach(req => {
+      const teacher = teachersData.find(t => t.name.trim().toLowerCase() === req.teacherFix.trim().toLowerCase());
+      const finalDate = excelSafeDate(req.finalDate || req.requestedDate);
+      const finalTime = normalizeTime(req.finalTime || req.requestedTime);
+      const teacherSubject = teacher?.subject || req.subjectName;
+      const norm = getValidationGradeAndSubject(req.class, teacherSubject);
+      const key = `${norm.grade}|${norm.subject}`;
+      const mapping = validationMap[key];
+
+      const row = [
+        escapeCsv(teacher?.email || ""),
+        escapeCsv(finalDate),
+        escapeCsv(finalTime),
+        "60",
+        escapeCsv(teacher?.gmeet || req.sessionLink || ""),
+        "1",
+        escapeCsv("Persiapkan dirimu Brainies saat Klinik PR, kamu bisa mengajukan 2 soal dahulu jika durasi berlebih bisa mengajukan soal lagi. Datang tepat waktu yaa :)"),
+        escapeCsv(mapping ? mapping.gradeSerial : "#N/A"),
+        escapeCsv(mapping ? mapping.subjectSerial : "#N/A"),
+        "",
+        escapeCsv("brainacademy-premium, brainacademy-elite, brainacademy-regular"),
+        "Node-B8LY0C48"
+      ];
+
+      csvRows.push(row.join(","));
+    });
+
+    const csvContent = "\uFEFF" + csvRows.join("\r\n");
+    const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.setAttribute("href", url);
+    link.setAttribute("download", `Jadwal_Sesi_Tutor_Request_${formatDate(new Date())}.csv`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+    showToast("CSV request siap upload berhasil diekspor.", "success");
+  };
+
   // Teacher switcher
   const handleSwitchTeacher = () => {
     const idx = teachersData.findIndex(t => t.id === currentTeacher.id);
@@ -734,6 +1051,65 @@ export default function App() {
     }
     return name.substring(0, 2).toUpperCase();
   };
+
+  const getRequestStatusClass = (status) => {
+    if (status === 'Request Masuk') return 'gray';
+    if (status === 'Dicarikan MT' || status === 'MT Tersedia' || status === 'Alternatif Jadwal') return 'blue';
+    if (status === 'Follow Up Siswa') return 'yellow';
+    if (status === 'Sesi Diterima') return 'green';
+    if (status === 'Dibatalkan Siswa' || status === 'Sesi Tidak Tersedia' || status === 'Koin Tidak Cukup') return 'red';
+    return 'gray';
+  };
+
+  const myTutorRequests = currentUser
+    ? tutorRequests.filter(req => req.studentEmail === currentUser.email)
+    : [];
+
+  const isAdminRoute = window.location.pathname === '/admin' || new URLSearchParams(window.location.search).get('view') === 'admin';
+
+  if (isAdminRoute && !isAdminAuthenticated) {
+    return (
+      <div className="admin-login-page">
+        <form className="admin-login-card" onSubmit={handleAdminLogin}>
+          <img src="/Logo Brain Academy Online by Ruangguru.png" alt="Brain Academy Online Logo" className="admin-login-logo" />
+          <div>
+            <h1>Admin Dashboard</h1>
+            <p>Masuk untuk melihat dan mengelola request Sesi Tutor.</p>
+          </div>
+
+          {adminLoginError && <div className="login-error-message">{adminLoginError}</div>}
+
+          <div className="form-field">
+            <label>Username</label>
+            <input
+              type="text"
+              value={adminLoginForm.username}
+              onChange={(e) => setAdminLoginForm(prev => ({ ...prev, username: e.target.value }))}
+              placeholder="admin"
+              autoComplete="username"
+              required
+            />
+          </div>
+
+          <div className="form-field">
+            <label>Password</label>
+            <input
+              type="password"
+              value={adminLoginForm.password}
+              onChange={(e) => setAdminLoginForm(prev => ({ ...prev, password: e.target.value }))}
+              placeholder="1234"
+              autoComplete="current-password"
+              required
+            />
+          </div>
+
+          <button type="submit" className="btn-primary btn-block btn-login-submit">
+            Masuk Admin
+          </button>
+        </form>
+      </div>
+    );
+  }
 
   return (
     <div>
@@ -784,6 +1160,24 @@ export default function App() {
                 >
                   Sesi Tutor On Demand
                 </button>
+                {currentUser && (
+                  <button
+                    onClick={() => setStudentSection('requests')}
+                    style={{ 
+                      fontFamily: 'var(--font-family-sans)',
+                      fontWeight: '800',
+                      color: studentSection === 'requests' ? '#00C16E' : '#1C2A39',
+                      backgroundColor: studentSection === 'requests' ? '#E6F8F3' : 'transparent',
+                      border: 'none',
+                      cursor: 'pointer',
+                      fontSize: '14px',
+                      padding: '8px 20px',
+                      borderRadius: '99px'
+                    }}
+                  >
+                    Request Saya
+                  </button>
+                )}
                 <button
                   onClick={() => setStudentSection('booking')}
                   style={{ 
@@ -798,7 +1192,7 @@ export default function App() {
                     borderRadius: '99px'
                   }}
                 >
-                  Pesan Sesi
+                  Isi Form
                 </button>
                 <a
                   href="#faq"
@@ -915,9 +1309,10 @@ export default function App() {
                        </div>
 
                        <div className="hero-modern-right">
-                         <div className="hero-image-wrapper">
-                           <div className="hero-floating-blob-bg"></div>
-                           <img src="/student_1on1_online.png" alt="Student studying 1-on-1 online" className="hero-illustration-img" />
+                         <div className="hero-image-wrapper" aria-label="Ilustrasi sesi tutor online">
+                           <div className="hero-illustration-card">
+                             <img src="/hero_reference_illustration.png" alt="Siswa sedang mengikuti sesi tutor online" className="hero-illustration-img" />
+                           </div>
                          </div>
                        </div>
                      </div>
@@ -1111,11 +1506,11 @@ export default function App() {
                        <div className="bottom-cta-content">
                          <h2>Siap Mulai Belajar?</h2>
                          <p>Pesan Sesi Tutor On-Demand pertamamu sekarang dan raih nilai impianmu!</p>
-                         <button className="btn-primary btn-large" onClick={() => {
+                        <button className="btn-primary btn-large" onClick={() => {
                             setStudentSection('booking');
                             document.getElementById('bookingFormSection')?.scrollIntoView({ behavior: 'smooth' });
                          }}>
-                           Pesan Sesi Sekarang
+                           Isi Form Sekarang
                          </button>
                        </div>
                        <div className="bottom-cta-illustration" aria-hidden="true">
@@ -1137,7 +1532,7 @@ export default function App() {
                         {sessions.filter(s => s.studentEmail === currentUser.email && (s.status === 'Waiting Teacher' || s.status === 'Confirmed')).length === 0 ? (
                           <div className="session-list-empty">
                             <h3>Belum ada sesi tutor aktif</h3>
-                            <p>Silakan klik tombol <strong>Pesan Sesi Sekarang</strong> di atas untuk membuat pesanan baru.</p>
+                            <p>Silakan klik tombol <strong>Isi Form Sekarang</strong> di atas untuk membuat request baru.</p>
                           </div>
                         ) : (
                           <div className="sessions-list" style={{ display: 'flex', flexDirection: 'column', gap: '16px', maxWidth: '800px', margin: '0 auto', width: '100%' }}>
@@ -1178,6 +1573,67 @@ export default function App() {
                         )}
                       </div>
                     )}
+                </section>
+              )}
+
+              {/* REQUEST LIST SECTION */}
+              {studentSection === 'requests' && (
+                <section className="student-section active">
+                  <div className="student-requests-section">
+                    <div className="student-requests-header">
+                      <div>
+                        <span className="section-subtitle">Daftar Request</span>
+                        <h2 className="section-title">Request Sesi Kamu</h2>
+                        <p className="section-desc">Pantau form Sesi Tutor yang sudah kamu kirim dan status konfirmasinya dari Student Advisor.</p>
+                      </div>
+                      <button className="btn-primary" type="button" onClick={() => setStudentSection('booking')}>
+                        Isi Form Baru
+                      </button>
+                    </div>
+
+                    {myTutorRequests.length === 0 ? (
+                      <div className="session-list-empty">
+                        <h3>Belum ada request sesi</h3>
+                        <p>Request yang kamu kirim lewat form akan muncul di sini.</p>
+                      </div>
+                    ) : (
+                      <div className="student-request-list">
+                        {myTutorRequests.map(req => (
+                          <div key={req.id} className="student-request-card">
+                            <div className="student-request-main">
+                              <div className="row-card-avatar">{req.subjectName.substring(0, 2)}</div>
+                              <div>
+                                <h3>{req.subjectName}</h3>
+                                <div className="student-request-meta">
+                                  <span>Diminta: {getFormattedDateString(req.requestedDate)}</span>
+                                  <span>•</span>
+                                  <span>{req.requestedTime} WIB</span>
+                                  <span>•</span>
+                                  <span>MT Request: {req.teacherRequest || 'Bebas'}</span>
+                                </div>
+                                {(req.finalDate || req.finalTime) && (
+                                  <p className="student-request-note">
+                                    Jadwal final: <strong>{req.finalDate ? getFormattedDateString(req.finalDate) : '-'}</strong>
+                                    {req.finalTime ? `, ${req.finalTime} WIB` : ''}
+                                  </p>
+                                )}
+                                {req.teacherFix && <p className="student-request-note">Master Teacher fix: <strong>{req.teacherFix}</strong></p>}
+                                {req.sessionLink && (
+                                  <a href={req.sessionLink} target="_blank" rel="noopener noreferrer" className="student-request-link">
+                                    Buka link booking/session
+                                  </a>
+                                )}
+                              </div>
+                            </div>
+                            <div className="student-request-side">
+                              <span className={`crm-status-badge ${getRequestStatusClass(req.opsStatus)}`}>{req.opsStatus}</span>
+                              <span className="crm-subtext">Dikirim: {new Date(req.submittedAt).toLocaleDateString('id-ID', { day: '2-digit', month: 'short', year: 'numeric' })}</span>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 </section>
               )}
 
@@ -1308,6 +1764,10 @@ export default function App() {
                 teachers={teachersData}
                 onUpdateTeacher={handleUpdateTeacher}
                 sessions={sessions}
+                tutorRequests={tutorRequests}
+                onUpdateTutorRequest={handleUpdateTutorRequest}
+                onRefreshTutorRequests={() => setTutorRequests(JSON.parse(localStorage.getItem('so_tutor_requests')) || [])}
+                onExportTutorRequestsCSV={handleExportTutorRequestsCSV}
                 getFormattedDateString={getFormattedDateString}
                 onExportSLMSCSV={handleExportSLMSCSV}
               />
@@ -1323,7 +1783,9 @@ export default function App() {
         active={showLogin} 
         onClose={() => setShowLogin(false)} 
         onLogin={handleLogin} 
-        mockStudents={MOCK_STUDENTS} 
+        registeredStudents={onboardedStudents}
+        eligibleStudents={MOCK_STUDENTS}
+        onOnboarding={handleStudentOnboarding}
       />
 
       <TopUpModal 
@@ -1332,6 +1794,25 @@ export default function App() {
         onPurchase={handleTopupPurchase} 
         currentCoins={currentUser?.coins || 0} 
       />
+
+      {showRequestSuccess && (
+        <div className="modal-overlay active">
+          <div className="modal-card request-success-modal">
+            <div className="request-success-icon">🎉</div>
+            <h3>Request Berhasil Dikirim!</h3>
+            <p>
+              Terima kasih, request sesi tutor kamu sudah kami terima. Student Advisor akan mengonfirmasi ketersediaan tutor dan jadwal maksimal dalam 1×24 jam kerja.
+            </p>
+            <button
+              type="button"
+              className="btn-primary btn-block btn-login-submit"
+              onClick={() => setShowRequestSuccess(false)}
+            >
+              Mengerti
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Toast container */}
       <div className="toast-container" id="toastContainer"></div>

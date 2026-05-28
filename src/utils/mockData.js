@@ -22,6 +22,14 @@ export const MOCK_STUDENTS = {
     class: "11 SMA",
     package: "Premium",
     coins: 30
+  },
+  "zahraelvansari@ruangguru.com": {
+    name: "Zahra Elvansari",
+    email: "zahraelvansari@ruangguru.com",
+    class: "12 SMA",
+    package: "Brain Academy Online Regular",
+    whatsapp: "",
+    coins: 100
   }
 };
 
